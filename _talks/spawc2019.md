@@ -1,11 +1,16 @@
 ---
-title: "A PyTorch Framework for Automatic Modulation Classification"
+title: "Deep Learning for Interference Identification: Band, Training SNR, and Sample Selection"
 collection: talks
-type: "Conference proceedings talk"
-permalink: /talks/surf2019a
-venue: "Testing Institute of America 2014 Annual Conference"
-date: 2014-03-01
-location: "Los Angeles, CA"
+type: "Conference Proceedings Talk"
+permalink: /talks/spawc2019
+venue: "IEEE Signal Processing Advances in Wireless Communications (SPAWC)"
+date: 2019-07-02
+location: "Cannes, France"
 ---
+[[ArXiv]](https://arxiv.org/abs/1901.05850)
+[[PDF]](https://sharanramjee.github.io/files/1901.05850.pdf)
+[[Code]](https://github.com/dl4amc/source)
+[[Cite]](https://scholar.googleusercontent.com/scholar.bib?q=info:_eXCgQPyV1oJ:scholar.google.com/&output=citation&scisdr=CgVBXfELEOvukc_tTcU:AAGBfm0AAAAAXRPoVcXw3itYqzVvutq3e89F9iOnb1ZY&scisig=AAGBfm0AAAAAXRPoVfyrzt2HR1JFMxzuTrp5mdwq15yD&scisf=4&ct=citation&cd=-1&hl=en)
 
-This is a description of your conference proceedings talk, note the different field in type. You can put anything in this field.
+## Abstract
+In this work, we investigate the feasibility and effectiveness of employing deep learning algorithms for automatic recognition of the modulation type of received wireless communication signals from subsampled data. Recent work considered a GNU radio-based data set that mimics the imperfections in a real wireless channel and uses 10 different modulation types. A Convolutional Neural Network (CNN) architecture was then developed and shown to achieve performance that exceeds that of expert-based approaches. Here, we continue this line of work and investigate deep neural network architectures that deliver high classification accuracy. We identify three architectures - namely, a Convolutional Long Short-term Deep Neural Network (CLDNN), a Long Short-Term Memory neural network (LSTM), and a deep Residual Network (ResNet) - that lead to typical classification accuracy values around 90% at high SNR. We then study algorithms to reduce the training time by minimizing the size of the training data set, while incurring a minimal loss in classification accuracy. To this end, we demonstrate the performance of Principal Component Analysis in significantly reducing the training time, while maintaining good performance at low SNR. We also investigate subsampling techniques that further reduce the training time, and pave the way for online classification at high SNR. Finally, we identify representative SNR values for training each of the candidate architectures, and consequently, realize drastic reductions of the training time, with negligible loss in classification accuracy.

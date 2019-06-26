@@ -1,8 +1,8 @@
 ---
-title: "A PyTorch Framework for Automatic Modulation Classification"
+title: "Deep Neural Network Architectures for Modulation Classification using Principal Component Analysis"
 collection: talks
 type: "Research Symposium Talk"
-permalink: /talks/surf2019a
+permalink: /talks/surf2019b
 venue: "The Summer Undergraduate Research Fellowship (SURF) Symposium"
 date: 2018-08-02
 location: "West Lafayette, Indiana"
