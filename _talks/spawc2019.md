@@ -1,8 +1,8 @@
 ---
-title: "Conference Proceeding talk 3 on Relevant Topic in Your Field"
+title: "A PyTorch Framework for Automatic Modulation Classification"
 collection: talks
 type: "Conference proceedings talk"
-permalink: /talks/2014-03-01-talk-3
+permalink: /talks/surf2019a
 venue: "Testing Institute of America 2014 Annual Conference"
 date: 2014-03-01
 location: "Los Angeles, CA"
