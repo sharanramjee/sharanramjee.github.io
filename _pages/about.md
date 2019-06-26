@@ -15,4 +15,4 @@ I am also a researcher at Professor [Aly El Gamal](https://web.ics.purdue.edu/~e
 
 I have worked on various projects involving Computer Vision, Natural Language Processing, Reinforcement Learning, and Feature Selection. I am generally interested in Computer Vision and the application for GANs to prevent adversarial attacks on Autonomous Driving Vehicles.
 
-Here is my [Curriculum Vitae](https://drive.google.com/file/d/1CUI5TU5PEEjL8NsWqh93UhmpbYqVH8FD/view?usp=sharing) (updated Jun 2019).
+Here is my [Curriculum Vitae](https://sharanramjee.github.io/files/SharanRamjeeCV.pdf) (updated Jun 2019).
