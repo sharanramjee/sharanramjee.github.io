@@ -1,16 +1,11 @@
 ---
-layout: archive
-title: "Publications"
+title: "Publications [Google Scholar](https://scholar.google.com/citations?user=QYNYHEMAAAAJ&hl=en)"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+## Accepted/Published
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<b>[Deep Learning for Interference Identification: Band, Training SNR, and Sample Selection](http://sharanramjee.github.io/publication/c1)</b> <br>
+Xiwen Zhang, Tolunay Zeyfi, Shengtai Ju, <b>Sharan Ramjee</b>, Aly El Gamal, Yonina C. Eldar. <br>
+<i>IEEE Signal Processing Advances in Wireless Communications <span style="color:red">(SPAWC 2019)</span></i>.
