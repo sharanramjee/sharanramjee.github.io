@@ -2,7 +2,7 @@
 title: "A PyTorch Framework for Automatic Modulation Classification"
 collection: talks
 type: "Research Symposium Talk"
-permalink: /talks/surf2019a
+permalink: /talks/surf2018a
 venue: "The Summer Undergraduate Research Fellowship (SURF) Symposium"
 date: 2018-08-02
 location: "West Lafayette, Indiana"
