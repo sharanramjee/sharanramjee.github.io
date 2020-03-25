@@ -29,5 +29,5 @@ Submitted to <i>IEEE Transactions on Wireless Communications</i> <span style="co
 Submitted to <i> IEEE Signal Processing Letters</i> <span style="color:red">(XPL)</span> Jan. 2020.
 
 <b>[Efficient Training of Deep Classifiers for Wireless Source Identification using Test SNR Estimates](http://sharanramjee.github.io/publications/wcl2019)</b> <br>
-<b>Xingchen Wang, Shengtai Ju, Xiwen Zhang, Sharan Ramjee, Aly El Gamal. <br>
+Xingchen Wang, Shengtai Ju, Xiwen Zhang, <b>Sharan Ramjee</b>, Aly El Gamal. <br>
 Submitted to <i> IEEE Wireless Communication Letters</i> <span style="color:red">(WCL)</span> Dec. 2019.
