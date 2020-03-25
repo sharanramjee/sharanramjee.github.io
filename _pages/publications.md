@@ -8,18 +8,26 @@ author_profile: true
 
 <b>[Deep Learning for Interference Identification: Band, Training SNR, and Sample Selection](http://sharanramjee.github.io/publications/spawc2019)</b> <br>
 Xiwen Zhang, Tolunay Zeyfi, Shengtai Ju, <b>Sharan Ramjee</b>, Aly El Gamal, Yonina C. Eldar. <br>
-<i>IEEE Signal Processing Advances in Wireless Communications <span style="color:red">(SPAWC)</span> 2019</i>.
+<i>IEEE Signal Processing Advances in Wireless Communications</i> <span style="color:red">(SPAWC)</span> Jul. 2019.
 
-<b>[Fast Deep Learning for Automatic Modulation Classification](http://sharanramjee.github.io/publications/jsac2019)</b> <br>
-<b>Sharan Ramjee</b>, Shengtai Ju, Diyu Yang, Xiaoyu Liu, Aly El Gamal, Yonina C. Eldar. <br>
-<i>IEEE Journal on Selected Areas in Communications <span style="color:red">(JSAC)</span> 2019</i>.
+<b>[Fast Deep Learning for Automatic Modulation Classification](http://sharanramjee.github.io/publications/mlceti2019)</b> <br>
+<b>Sharan Ramjee</b>, Shengtai Ju, Diyu Yang, Xiaoyu Liu, Aly El Gamal, Yonina C. Eldar. <br> <i>IEEE Machine Learning for Communications Emerging Technologies Initiatives</i> <span style="color:red">(MLCETI)</span>, Jan. 2019.
+
 
 ## Under Review
 
-<b>[Efficient Wrapper Feature Selection using Autoencoder and Model Based Elimination](http://sharanramjee.github.io/publications/nips2019)</b> <br>
-<b>Sharan Ramjee</b>, Aly El Gamal. <br>
-<i>Neural Information Processing Systems <span style="color:red">(NIPS)</span> 2019</i>.
+<b>[Fast Deep Learning for Wireless Interference Identification](http://sharanramjee.github.io/publications/tccn2020)</b> <br>
+Xiwen Zhang, Tolunay Seyfi, Shengtai Ju, <b>Sharan Ramjee</b>, Aly El Gamal, Yonina C. Eldar. <br>
+Submitted to <i>IEEE Transactions on Cognitive Communications and Networking</i> <span style="color:red">(TCCN)</span> Apr. 2020.
 
-<b>[Data Driven Subsampling for Automatic Modulation Classification](http://sharanramjee.github.io/publications/tccn2019)</b> <br>
+<b>[Deep Learning for Automatic Modulation Classification using Data Driven Subsampling](http://sharanramjee.github.io/publications/twc2020)</b> <br>
 <b>Sharan Ramjee</b>, Shengtai Ju, Diyu Yang, Xiaoyu Liu, Aly El Gamal, Yonina C. Eldar. <br>
-<i>IEEE Transactions on Cognitive Communications and Networking <span style="color:red">(TCCN)</span> 2019</i>.
+Submitted to <i>IEEE Transactions on Wireless Communications</i> <span style="color:red">(TWC)</span> Feb. 2020.
+
+<b>[Efficient Wrapper Feature Selection using Autoencoder and Model Based Elimination](http://sharanramjee.github.io/publications/xpl2020)</b> <br>
+<b>Sharan Ramjee</b>, Aly El Gamal. <br>
+Submitted to <i> IEEE Signal Processing Letters</i> <span style="color:red">(XPL)</span> Jan. 2020.
+
+<b>[Efficient Training of Deep Classifiers for Wireless Source Identification using Test SNR Estimates](http://sharanramjee.github.io/publications/wcl2019)</b> <br>
+<b>Xingchen Wang, Shengtai Ju, Xiwen Zhang, Sharan Ramjee, Aly El Gamal. <br>
+Submitted to <i> IEEE Wireless Communication Letters</i> <span style="color:red">(WCL)</span> Dec. 2019.

@@ -7,14 +7,10 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I’m a 3rd year Undergraduate Student at [Purdue University](https://www.purdue.edu) majoring in Computer Engineering with minors in Mathematics and Economics.
+I am a Master's student in the [Department of Computer Science](https://cs.stanford.edu/) at [Stanford University](https://www.stanford.edu/) with a specialization in Artificial Intelligence. Prior to attending Stanford, I obtained a Bachelor of Science in Computer Engineering from the [Department of Electrical and Computer Engineering](https://engineering.purdue.edu/ECE) at [Purdue University](https://www.purdue.edu).
 
-I am currently interning at Google in Seattle, where I am working with the Google Cloud AI team on using model distillation to create explainable AI.
+My research interests lie in Computer Vision and the application of GANs for the prevention of adversarial attacks on autonomous vehicles. I was also an undergraduate researcher in [Aly El Gamal](https://web.ics.purdue.edu/~elgamala/)'s lab at Purdue, where I worked on Deep Learning for Signal Processing and Wireless Communications with a focus on Modulation Classification and Interference Identification.
 
-I interned at Qualcomm in San Diego this summer of 2019, where I worked with the System Performance Team on implementing Deep Learning to predict the set of Quality of Service (QoS) parameters that will allow the Snapdragon 865 chip to mitigate the loss in power when playing (decoding) and recording (encoding) videos.
+During my academic endeavors, I interned at Google in Fall 2019 as a Software Engineering Intern as a part of the [Google Cloud AI](https://cloud.google.com/products/ai) team, where I worked on using Model Distillation to create [Explainable AI](https://cloud.google.com/explainable-ai). I interned at Qualcomm in Summer 2019 as a Machine Learning Intern as a part of the Machine Learning Analysis division of the System Performance team, where I worked on using temporal Deep Learning models to mitigate power loss in Snapdragon chips by optimizing Quality of Service (QoS) parameters when encoding/decoding videos.
 
-I am also a researcher at Professor [Aly El Gamal](https://web.ics.purdue.edu/~elgamala/)'s lab at Purdue University, where I work on Deep Learning for Signal Processing and Wireless Communications for applications that entail Modulation Classification and Interference Identification.
-
-I have worked on various projects involving Computer Vision, Natural Language Processing, Reinforcement Learning, and Feature Selection. I am generally interested in Computer Vision and the application for GANs to prevent adversarial attacks on Autonomous Driving Vehicles.
-
-Here is my [Curriculum Vitae](https://sharanramjee.github.io/files/SharanRamjeeCV.pdf) (updated Aug 2019).
+Here is my [Curriculum Vitae](https://sharanramjee.github.io/files/SharanRamjeeCV.pdf) (updated Feb. 2020).

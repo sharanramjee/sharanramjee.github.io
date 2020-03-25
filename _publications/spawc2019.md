@@ -4,10 +4,10 @@ collection: publications
 permalink: /publications/spawc2019
 venue: "IEEE Signal Processing Advances in Wireless Communications (SPAWC)"
 date: 2019-07-01
-citation: 'Xiwen Zhang, Tolunay Zeyfi, Shengtai Ju, Sharan Ramjee, Aly El Gamal, Yonina C. Eldar. “Deep Learning for Interference Identification: Band, Training SNR, and Sample Selection”. IEEE Signal Processing Advances in Wireless Communications (SPAWC), 2019'
+citation: 'Xiwen Zhang, Tolunay Zeyfi, Shengtai Ju, Sharan Ramjee, Aly El Gamal, Yonina C. Eldar. “Deep Learning for Interference Identification: Band, Training SNR, and Sample Selection”. IEEE Signal Processing Advances in Wireless Communications (SPAWC), Jul. 2019'
 ---  
 [[ArXiv]](https://arxiv.org/abs/1905.08054)
-[[PDF]](https://sharanramjee.github.io/files/1905.08054.pdf)
+[[PDF]](https://sharanramjee.github.io/files/spawc2019.pdf)
 [[Presentation]](https://sharanramjee.github.io/files/spawc2019.pptx)
 [[Code]](https://github.com/dl4amc/dl4wii)
 [[Cite]](https://scholar.googleusercontent.com/scholar.bib?q=info:91r17l37Wc0J:scholar.google.com/&output=citation&scisdr=CgVBXfELEOvukc_gsn8:AAGBfm0AAAAAXRPlqn9bHiyuOXfoFdz6lHBI5NNp-pv0&scisig=AAGBfm0AAAAAXRPlqqoQW14cR3x8iEvkIzfGh3TuKC5T&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1)
