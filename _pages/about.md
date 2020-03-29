@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a Master's student in the [Department of Computer Science](https://cs.stanford.edu/) at [Stanford University](https://www.stanford.edu/) with a specialization in Artificial Intelligence. Prior to attending Stanford, I obtained a Bachelor of Science in Computer Engineering from the [Department of Electrical and Computer Engineering](https://engineering.purdue.edu/ECE) at [Purdue University](https://www.purdue.edu).
+I am an undergraduate student pursuing a Bachelor of Science in Computer Engineering from the [Department of Electrical and Computer Engineering](https://engineering.purdue.edu/ECE) at [Purdue University](https://www.purdue.edu). I will be joining the [Department of Computer Science](https://cs.stanford.edu/) at [Stanford University](https://www.stanford.edu/) as a Master's student specializing in Computer Vision and Artificial Intelligence.
 
 My research interests lie in Computer Vision and the application of GANs for the prevention of adversarial attacks on autonomous vehicles. I was also an undergraduate researcher in [Aly El Gamal](https://web.ics.purdue.edu/~elgamala/)'s lab at Purdue, where I worked on Deep Learning for Signal Processing and Wireless Communications with a focus on Modulation Classification and Interference Identification.
 
