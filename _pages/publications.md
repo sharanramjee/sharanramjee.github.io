@@ -6,6 +6,10 @@ author_profile: true
 
 ## Accepted/Published
 
+<b>[Efficient Training of Deep Classifiers for Wireless Source Identification using Test SNR Estimates](http://sharanramjee.github.io/publications/wcl2019)</b> <br>
+Xingchen Wang, Shengtai Ju, Xiwen Zhang, <b>Sharan Ramjee</b>, Aly El Gamal. <br>
+<i> IEEE Wireless Communication Letters</i> <span style="color:red">(WCL)</span> Apr. 2020.
+
 <b>[Deep Learning for Interference Identification: Band, Training SNR, and Sample Selection](http://sharanramjee.github.io/publications/spawc2019)</b> <br>
 Xiwen Zhang, Tolunay Zeyfi, Shengtai Ju, <b>Sharan Ramjee</b>, Aly El Gamal, Yonina C. Eldar. <br>
 <i>IEEE Signal Processing Advances in Wireless Communications</i> <span style="color:red">(SPAWC)</span> Jul. 2019.
@@ -27,7 +31,3 @@ Submitted to <i>IEEE Transactions on Wireless Communications</i> <span style="co
 <b>[Efficient Wrapper Feature Selection using Autoencoder and Model Based Elimination](http://sharanramjee.github.io/publications/xpl2020)</b> <br>
 <b>Sharan Ramjee</b>, Aly El Gamal. <br>
 Submitted to <i> IEEE Signal Processing Letters</i> <span style="color:red">(XPL)</span> Jan. 2020.
-
-<b>[Efficient Training of Deep Classifiers for Wireless Source Identification using Test SNR Estimates](http://sharanramjee.github.io/publications/wcl2019)</b> <br>
-Xingchen Wang, Shengtai Ju, Xiwen Zhang, <b>Sharan Ramjee</b>, Aly El Gamal. <br>
-Submitted to <i> IEEE Wireless Communication Letters</i> <span style="color:red">(WCL)</span> Dec. 2019.
