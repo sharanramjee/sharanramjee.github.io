@@ -88,7 +88,7 @@ author:
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=QYNYHEMAAAAJ&hl=en"
   email            : "sramjee@stanford.edu"
-  researchgate     : "Sharan_Ramjee"
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -103,7 +103,7 @@ author:
   impactstory      :
   lastfm           :
   linkedin         : "sharanramjee"
-  orcid            : "0000-0002-1193-391X"
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    :
