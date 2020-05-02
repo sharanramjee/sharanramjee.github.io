@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Sharan Ramjee"
 title_separator          : "-"
 name                     : &name "Sharan Ramjee"
-description              : &description "Incoming Master's student at Stanford University"
+description              : &description "Master's student at Stanford University"
 url                      : https://sharanramjee.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sharanramjee/sharanramjee.github.io"
@@ -81,8 +81,8 @@ analytics:
 # Site Author
 author:
   name             : "Sharan Ramjee"
-  avatar           : "cactus.jpg"
-  bio              : "Incoming Master's student at Stanford University"
+  avatar           : "outdoors.jpg"
+  bio              : "Master's student at Stanford University"
   location         : "West Lafayette, IN"
   employer         :
   pubmed           :
