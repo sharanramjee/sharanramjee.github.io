@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I will be joining the [Department of Computer Science](https://cs.stanford.edu/) at [Stanford University](https://www.stanford.edu/) as a Master's student specializing in Computer Vision and Artificial Intelligence in Autumn 2020. I completed my Bachelor of Science in Computer Engineering from the [Department of Electrical and Computer Engineering](https://engineering.purdue.edu/ECE) at [Purdue University](https://www.purdue.edu) in 2020. 
+I will be joining the [Department of Computer Science](https://cs.stanford.edu/) at [Stanford University](https://www.stanford.edu/) as a Master's student specializing in Computer Vision and Artificial Intelligence in Autumn 2020. Previously, I completed my Bachelor of Science in Computer Engineering from the [Department of Electrical and Computer Engineering](https://engineering.purdue.edu/ECE) at [Purdue University](https://www.purdue.edu) in 2020. 
 
 My research interests lie in Computer Vision and the application of GANs for the prevention of adversarial attacks on autonomous vehicles. I was an undergraduate researcher at [Aly El Gamal](https://web.ics.purdue.edu/~elgamala/)'s research lab at Purdue, where I worked on Deep Learning for Signal Processing and Wireless Communications with a focus on Modulation Classification and Interference Identification.
 
