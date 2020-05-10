@@ -24,10 +24,6 @@ Xiwen Zhang, Tolunay Zeyfi, Shengtai Ju, <b>Sharan Ramjee</b>, Aly El Gamal, Yon
 <b>Sharan Ramjee</b>, Shengtai Ju, Diyu Yang, Xiaoyu Liu, Aly El Gamal, Yonina C. Eldar. <br>
 Submitted to <i>IEEE Transactions on Cognitive Communications and Networking</i> <span style="color:red">(TCCN)</span> May. 2020.
 
-<b>[Fast Deep Learning for Wireless Interference Identification](http://sharanramjee.github.io/publications/tccn2020)</b> <br>
-Xiwen Zhang, Tolunay Seyfi, Shengtai Ju, <b>Sharan Ramjee</b>, Aly El Gamal, Yonina C. Eldar. <br>
-Submitted to <i>IEEE Transactions on Cognitive Communications and Networking</i> <span style="color:red">(TCCN)</span> Apr. 2020.
-
 <b>[Efficient Wrapper Feature Selection using Autoencoder and Model Based Elimination](http://sharanramjee.github.io/publications/xpl2020)</b> <br>
 <b>Sharan Ramjee</b>, Aly El Gamal. <br>
 Submitted to <i> IEEE Signal Processing Letters</i> <span style="color:red">(XPL)</span> Jan. 2020.
