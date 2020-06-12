@@ -4,6 +4,10 @@ permalink: /projects/
 author_profile: true
 ---
 
+<b>[Cov2GenX](http://sharanramjee.github.io/projects/cov2genx)</b> <br>
+<b>Healthcare ML App</b><br>
+<i>Jun. 2020</i>.
+
 <b>[StrataGem](http://sharanramjee.github.io/projects/stratagem)</b> <br>
 <b>Fintech Android App</b><br>
 <i>Nov. 2018</i>.

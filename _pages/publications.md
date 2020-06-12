@@ -6,7 +6,7 @@ author_profile: true
 
 ## Accepted/Published
 
-<b>[Efficient Training of Deep Classifiers for Wireless Source Identification using Test SNR Estimates](http://sharanramjee.github.io/publications/wcl2019)</b> <br>
+<b>[Efficient Training of Deep Classifiers for Wireless Source Identification using Test SNR Estimates](http://sharanramjee.github.io/publications/wcl2020)</b> <br>
 Xingchen Wang, Shengtai Ju, Xiwen Zhang, <b>Sharan Ramjee</b>, Aly El Gamal. <br>
 <i> IEEE Wireless Communication Letters</i> <span style="color:red">(WCL)</span> Apr. 2020.
 
