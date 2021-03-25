@@ -15,4 +15,4 @@ Apart from my academic endeavors, I interned at Google in Fall 2019 as a Softwar
 
 This Summer 2021 term, I will be interning at Stripe in San Francisco, where I will be working on Machine Learning for payment fraud detection.
 
-Here is my [Curriculum Vitae](https://sharanramjee.github.io/files/SharanRamjeeCV.pdf) (updated Jan. 2021).
+Here is my [Curriculum Vitae](https://sharanramjee.github.io/files/SharanRamjeeCV.pdf) (updated Mar. 2021).
