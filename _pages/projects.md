@@ -4,6 +4,10 @@ permalink: /projects/
 author_profile: true
 ---
 
+<b>[Single-Image Stereo Depth Estimation using GANs](http://sharanramjee.github.io/projects/cs231a)</b> <br>
+<b>Computer Vision App</b><br>
+<i>Mar. 2021</i>.
+
 <b>[Histogram-Based Gradient Boosting Trees for Efficient Graph Learning with Wasserstein Embeddings](http://sharanramjee.github.io/projects/cs224w)</b> <br>
 <b>Graph Learning App</b><br>
 <i>Mar. 2021</i>.
