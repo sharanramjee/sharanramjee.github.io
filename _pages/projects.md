@@ -4,6 +4,10 @@ permalink: /projects/
 author_profile: true
 ---
 
+<b>[Super-Resolution of Low-Quality Dashcam Images for Realtime Pothole Detection](http://sharanramjee.github.io/projects/cs230)</b> <br>
+<b>Deep Learning App</b><br>
+<i>Nov. 2020</i>.
+
 <b>[Cov2GenX](http://sharanramjee.github.io/projects/cov2genx)</b> <br>
 <b>Healthcare ML App</b><br>
 <i>Jun. 2020</i>.
