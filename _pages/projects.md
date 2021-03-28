@@ -4,6 +4,10 @@ permalink: /projects/
 author_profile: true
 ---
 
+<b>[Histogram-Based Gradient Boosting Trees for Efficient Graph Learning with Wasserstein Embeddings](http://sharanramjee.github.io/projects/cs224w)</b> <br>
+<b>Graph Learning App</b><br>
+<i>Mar. 2021</i>.
+
 <b>[Aspect-Target Sentiment Classification for Cyberbullying Detection](http://sharanramjee.github.io/projects/cs224n)</b> <br>
 <b>Natural Language Processing App</b><br>
 <i>Mar. 2021</i>.
