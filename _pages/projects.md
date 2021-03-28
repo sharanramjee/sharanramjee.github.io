@@ -8,6 +8,10 @@ author_profile: true
 <b>Deep Learning App</b><br>
 <i>Nov. 2020</i>.
 
+<b>[Image Data Augmentation for Plant Leaf Disease Classification Using Neural Style Transfer](http://sharanramjee.github.io/projects/cs229)</b> <br>
+<b>Machine Learning App</b><br>
+<i>Nov. 2020</i>.
+
 <b>[Cov2GenX](http://sharanramjee.github.io/projects/cov2genx)</b> <br>
 <b>Healthcare ML App</b><br>
 <i>Jun. 2020</i>.
