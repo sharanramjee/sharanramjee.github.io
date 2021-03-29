@@ -4,6 +4,12 @@ permalink: /talks/
 author_profile: true
 ---
 
+<b>[Unsupervised Neural Network Models of the Ventral Visual Stream](http://sharanramjee.github.io/talks/cs431)</b> <br>
+<i>Stanford University CS 431: High-level Vision: From Neurons to Deep Neural Networks, 2021</i> - Stanford, California.
+
+<b>[Single-Image Stereo Depth Estimation using GANs](http://sharanramjee.github.io/talks/cs231a)</b> <br>
+<i>Stanford University CS 231A: Computer Vision, From 3D Reconstruction to Recognition, 2021</i> - Stanford, California.
+
 <b>[Super-Resolution of Low-Quality Images for Realtime Pothole Detection](http://sharanramjee.github.io/talks/cs230)</b> <br>
 <i>Stanford University CS 230: Deep Learning, 2020</i> - Stanford, California.
 
