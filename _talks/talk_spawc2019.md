@@ -8,8 +8,8 @@ date: 2019-07-02
 location: "Cannes, France"
 ---
 [[ArXiv]](https://arxiv.org/abs/1901.05850)
-[[PDF]](https://sharanramjee.github.io/files/1901.05850.pdf)
-[[Presentation]](https://sharanramjee.github.io/files/spawc2019.pptx)
+[[PDF]](https://sharanramjee.github.io/files/spawc2019.pdf)
+[[Presentation]](https://sharanramjee.github.io/files/spawc2019_presentation.pdf)
 [[Code]](https://github.com/dl4amc/source)
 [[Cite]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C15&q=Deep+learning+for+interference+identification%3A+Band%2C+training+SNR%2C+and+sample+selection&btnG=#d=gs_cit&u=%2Fscholar%3Fq%3Dinfo%3A91r17l37Wc0J%3Ascholar.google.com%2F%26output%3Dcite%26scirp%3D0%26hl%3Den)
 

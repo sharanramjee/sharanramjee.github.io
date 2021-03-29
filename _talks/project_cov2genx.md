@@ -5,7 +5,7 @@ permalink: /projects/cov2genx
 venue: "Stanford AIMI-HIAE COVID-19 Researchathon 2020"
 ---  
 [[Certificate]](https://sharanramjee.github.io/files/Stanford_AIMI-HIAE_COVID-19_Researchathon_2020_Certificate.pdf)
-[[Presentation]](https://sharanramjee.github.io/files/Cov2GenX.pptx)
+[[Presentation]](https://sharanramjee.github.io/files/cov2genx.pdf)
 [[GitHub]](https://github.com/sharanramjee/aimi-cov2genx)
 
 * Cov2GenX is a Machine Learning pipeline for predicting mutation-resistant peptide candidates for COVID-19 vaccines
