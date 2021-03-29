@@ -7,8 +7,8 @@ date: 2019-07-01
 citation: 'Xiwen Zhang, Tolunay Zeyfi, Shengtai Ju, Sharan Ramjee, Aly El Gamal, Yonina C. Eldar. “Deep Learning for Interference Identification: Band, Training SNR, and Sample Selection”. IEEE Signal Processing Advances in Wireless Communications (SPAWC), Jul. 2019'
 ---  
 [[ArXiv]](https://arxiv.org/abs/1905.08054)
-[[PDF]](https://sharanramjee.github.io/files/spawc2019.pdf)
-[[Presentation]](https://sharanramjee.github.io/files/spawc2019.pptx)
+[[PDF]](https://sharanramjee.github.io/files/publications/spawc2019.pdf)
+[[Presentation]](https://sharanramjee.github.io/files/talks/spawc2019.pdf)
 [[Code]](https://github.com/dl4amc/dl4wii)
 [[Cite]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C15&q=Deep+learning+for+interference+identification%3A+Band%2C+training+SNR%2C+and+sample+selection&btnG=#d=gs_cit&u=%2Fscholar%3Fq%3Dinfo%3A91r17l37Wc0J%3Ascholar.google.com%2F%26output%3Dcite%26scirp%3D0%26hl%3Den)
 

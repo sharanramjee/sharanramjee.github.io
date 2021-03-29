@@ -8,7 +8,7 @@ date: 2018-08-02
 location: "West Lafayette, Indiana"
 ---
 [[e-Pubs]](https://docs.lib.purdue.edu/surf/2018/Presentations/32/)
-[[PDF]](https://sharanramjee.github.io/files/surf2019b.pdf)
+[[PDF]](https://sharanramjee.github.io/files/talks/surf2019b.pdf)
 [[Code]](https://github.com/dl4amc/source)
 [[Cite]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C15&q=Deep+Neural+Network+Architectures+for+Modulation+Classification+using+Principal+Component+Analysis&btnG=#d=gs_cit&u=%2Fscholar%3Fq%3Dinfo%3AQyjiiqoWzgAJ%3Ascholar.google.com%2F%26output%3Dcite%26scirp%3D0%26hl%3Den)
 

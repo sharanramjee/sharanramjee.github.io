@@ -7,7 +7,7 @@ date: 2020-05-01
 citation: 'Sharan Ramjee, Aly El Gamal. “Efficient Wrapper Feature Selection using Autoencoder and Model Based Elimination”. Submitted to IEEE Letters of the Computer Society (LOCS), May. 2020'
 ---  
 [[ArXiv]](https://arxiv.org/abs/1905.11592)
-[[PDF]](https://sharanramjee.github.io/files/locs2020.pdf)
+[[PDF]](https://sharanramjee.github.io/files/publications/locs2020.pdf)
 [[Code]](https://github.com/sharanramjee/AMBER)
 [[Cite]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C15&q=Efficient+wrapper+feature+selection+using+autoencoder+and+model+based+elimination&btnG=#d=gs_cit&u=%2Fscholar%3Fq%3Dinfo%3A65EkRuyF9VsJ%3Ascholar.google.com%2F%26output%3Dcite%26scirp%3D0%26hl%3Den)
 

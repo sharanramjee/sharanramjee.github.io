@@ -8,7 +8,7 @@ citation: 'Sharan Ramjee, Shengtai Ju, Diyu Yang, Xiaoyu Liu, Aly El Gamal, Yoni
 IEEE Machine Learning for Communications Emerging Technologies Initiatives (MLCETI), Jan. 2019'
 ---  
 [[ArXiv]](https://arxiv.org/abs/1901.05850)
-[[PDF]](https://sharanramjee.github.io/files/mlceti2019.pdf)
+[[PDF]](https://sharanramjee.github.io/files/publications/mlceti2019.pdf)
 [[Code]](https://github.com/dl4amc/source)
 [[Cite]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C15&q=Fast+deep+learning+for+automatic+modulation+classification&btnG=#d=gs_cit&u=%2Fscholar%3Fq%3Dinfo%3A_eXCgQPyV1oJ%3Ascholar.google.com%2F%26output%3Dcite%26scirp%3D0%26hl%3Den)
 
