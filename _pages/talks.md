@@ -13,9 +13,6 @@ author_profile: true
 <b>[A PyTorch Framework for Automatic Modulation Classification](http://sharanramjee.github.io/talks/surf2018a)</b> <br>
 <i>The Summer Undergraduate Research Fellowship <span style="color:red">(SURF)</span> Symposium, 2018</i> - West Lafayette, Indiana.
 
-<b>[An introduction to Deep Learning for Style Transfer](http://sharanramjee.github.io/talks/csociety2018)</b> <br>
-<i>Purdue IEEE Computer Society <span style="color:red">(CSOCIETY)</span>, 2018</i> - West Lafayette, Indiana.
-
 # Other talks
 
 <b>[Unsupervised Neural Network Models of the Ventral Visual Stream](http://sharanramjee.github.io/talks/cs431)</b> <br>
@@ -35,3 +32,6 @@ author_profile: true
 
 <b>[QoS Optimization with ML](http://sharanramjee.github.io/talks/qualcomm2019)</b> <br>
 <i>Qualcomm Machine Learning Analysis, 2019</i> - San Diego, California.
+
+<b>[An introduction to Deep Learning for Style Transfer](http://sharanramjee.github.io/talks/csociety2018)</b> <br>
+<i>Purdue IEEE Computer Society <span style="color:red">(CSOCIETY)</span>, 2018</i> - West Lafayette, Indiana.
