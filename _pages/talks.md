@@ -34,4 +34,4 @@ author_profile: true
 <i>Qualcomm Machine Learning Analysis, 2019</i> - San Diego, California.
 
 <b>[An introduction to Deep Learning for Style Transfer](http://sharanramjee.github.io/talks/csociety2018)</b> <br>
-<i>Purdue IEEE Computer Society <span style="color:red">(CSOCIETY)</span>, 2018</i> - West Lafayette, Indiana.
+<i>Purdue IEEE Computer Society (CSOCIETY), 2018</i> - West Lafayette, Indiana.
