@@ -13,6 +13,6 @@ During the Summer 2020 term, I worked as a Research Assistant at the MIT Center 
 
 Apart from my academic endeavors, I interned at Google in Fall 2019 as a Software Engineering Intern as a part of the [Google Cloud AI](https://cloud.google.com/products/ai) team, where I worked on using Model Distillation to create [Explainable AI](https://cloud.google.com/explainable-ai). I also interned at Qualcomm in Summer 2019 as a Machine Learning Intern as a part of the Machine Learning Analysis division of the System Performance team, where I worked on using temporal Deep Learning models to mitigate power loss in Snapdragon chips by optimizing Quality of Service (QoS) parameters when encoding/decoding videos.
 
-This Summer 2021 term, I will be interning at Stripe in San Francisco, where I will be working on Machine Learning for payment fraud detection.
+This Summer 2021 term, I am interning at Stripe in San Francisco, where I am working on Deep Learning models for payment fraud detection.
 
 Here is my [Curriculum Vitae](https://sharanramjee.github.io/files/SharanRamjeeCV.pdf) (updated Jun. 2021).
