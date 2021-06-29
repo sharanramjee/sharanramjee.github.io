@@ -4,6 +4,10 @@ permalink: /projects/
 author_profile: true
 ---
 
+<b>[Single-Image Stereo Depth Estimation using GANs](http://sharanramjee.github.io/projects/cs231n)</b> <br>
+<b>Computer Vision App</b><br>
+<i>Mar. 2021</i>.
+
 <b>[Single-Image Stereo Depth Estimation using GANs](http://sharanramjee.github.io/projects/cs231a)</b> <br>
 <b>Computer Vision App</b><br>
 <i>Mar. 2021</i>.
