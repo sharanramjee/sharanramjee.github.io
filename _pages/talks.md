@@ -15,6 +15,9 @@ author_profile: true
 
 # Other talks
 
+<b>[Context-Aware Skeleton-based Action Recognition via Spatial and Temporal Transformer Networks](http://sharanramjee.github.io/talks/cs231n)</b> <br>
+<i>Stanford University CS 231N: High-level Vision: Convolutional Neural Networks for Visual Recognition, 2021</i> - Stanford, California.
+
 <b>[Unsupervised Neural Network Models of the Ventral Visual Stream](http://sharanramjee.github.io/talks/cs431)</b> <br>
 <i>Stanford University CS 431: High-level Vision: From Neurons to Deep Neural Networks, 2021</i> - Stanford, California.
 
