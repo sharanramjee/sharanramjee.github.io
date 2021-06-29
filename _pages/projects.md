@@ -4,6 +4,10 @@ permalink: /projects/
 author_profile: true
 ---
 
+<b>[AdaLA: Adapting Gradient Estimation by Looking Ahead](http://sharanramjee.github.io/projects/cs361)</b> <br>
+<b>ML Optimizer</b><br>
+<i>Jun. 2021</i>.
+
 <b>[Context-Aware Skeleton-based Action Recognition via Spatial and Temporal Transformer Networks](http://sharanramjee.github.io/projects/cs231n)</b> <br>
 <b>Computer Vision App</b><br>
 <i>Jun. 2021</i>.
