@@ -3,7 +3,7 @@ title: "Project Aerial: CAASM for Palo Alto Networks"
 collection: talks
 type: "Research Symposium Talk"
 permalink: /talks/ee205
-venue: "Stanford University EE 205: High-level Vision: Product Management for Electrical Engineers and Computer Scientists, 2021"
+venue: "Stanford University EE 205: Product Management for Electrical Engineers and Computer Scientists, 2021"
 date: 2021-12-01
 location: "Stanford, California"
 ---

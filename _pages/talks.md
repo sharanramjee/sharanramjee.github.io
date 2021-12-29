@@ -15,6 +15,12 @@ author_profile: true
 
 # Other talks
 
+<b>[FLITE: Focusing LITE for Memory-Efficient Meta Learning](http://sharanramjee.github.io/talks/cs330)</b> <br>
+<i>Stanford University CS 330: Deep Multi-Task and Meta Learning, 2021</i> - Stanford, California.
+
+<b>[Project Aerial: CAASM for Palo Alto Networks](http://sharanramjee.github.io/talks/ee205)</b> <br>
+<i>Stanford University EE 205: Product Management for Electrical Engineers and Computer Scientists, 2021</i> - Stanford, California.
+
 <b>[Context-Aware Skeleton-based Action Recognition via Spatial and Temporal Transformer Networks](http://sharanramjee.github.io/talks/cs231n)</b> <br>
 <i>Stanford University CS 231N: High-level Vision: Convolutional Neural Networks for Visual Recognition, 2021</i> - Stanford, California.
 

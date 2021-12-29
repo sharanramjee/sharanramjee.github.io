@@ -4,6 +4,10 @@ permalink: /projects/
 author_profile: true
 ---
 
+<b>[FLITE: Focusing LITE for Memory-Efficient Meta Learning](http://sharanramjee.github.io/projects/cs330)</b> <br>
+<b>Meta-Learner</b><br>
+<i>Dec. 2021</i>.
+
 <b>[AdaLA: Adapting Gradient Estimation by Looking Ahead](http://sharanramjee.github.io/projects/cs361)</b> <br>
 <b>ML Optimizer</b><br>
 <i>Jun. 2021</i>.
