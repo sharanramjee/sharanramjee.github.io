@@ -4,6 +4,10 @@ permalink: /projects/
 author_profile: true
 ---
 
+<b>[AutoChef: Computer Vision for Automated Ingredient-to-Recipe Matching](http://sharanramjee.github.io/projects/cs329s)</b> <br>
+<b>Computer Vision app</b><br>
+<i>Mar. 2022</i>.
+
 <b>[FLITE: Focusing LITE for Memory-Efficient Meta Learning](http://sharanramjee.github.io/projects/cs330)</b> <br>
 <b>Meta-Learner</b><br>
 <i>Dec. 2021</i>.

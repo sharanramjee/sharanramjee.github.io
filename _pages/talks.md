@@ -15,6 +15,9 @@ author_profile: true
 
 # Other talks
 
+<b>[AutoChef: Computer Vision for Automated Ingredient-to-Recipe Matching](http://sharanramjee.github.io/talks/cs329s)</b> <br>
+<i>Stanford University CS 329S: Machine Learning Systems Design, 2022</i> - Stanford, California.
+
 <b>[FLITE: Focusing LITE for Memory-Efficient Meta Learning](http://sharanramjee.github.io/talks/cs330)</b> <br>
 <i>Stanford University CS 330: Deep Multi-Task and Meta Learning, 2021</i> - Stanford, California.
 
