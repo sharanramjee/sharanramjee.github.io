@@ -15,4 +15,4 @@ Apart from my academic endeavors, I interned at Stripe in Summer 2021 as a Softw
 
 Upon graduation in June 2022, I will be joining Stripe as a Machine Learning Engineer in San Francisco, where I will continue to work on ML fraud modeling for Stripe merchants.
 
-Here is my [Curriculum Vitae](https://sharanramjee.github.io/files/Sharan_Ramjee_CV.pdf) (updated Dec. 2021).
+Here is my [Curriculum Vitae](https://sharanramjee.github.io/files/Sharan_Ramjee_CV.pdf) (updated Apr. 2022).
