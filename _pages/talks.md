@@ -15,6 +15,9 @@ author_profile: true
 
 # Other talks
 
+<b>[Attention-Weighted Integrated Gradients for Target-Aware Cyberbullying Detection](http://sharanramjee.github.io/talks/cs329t)</b> <br>
+<i>Stanford University CS 329T: Trustworthy Machine Learning, 2022</i> - Stanford, California.
+
 <b>[AutoChef: Computer Vision for Automated Ingredient-to-Recipe Matching](http://sharanramjee.github.io/talks/cs329s)</b> <br>
 <i>Stanford University CS 329S: Machine Learning Systems Design, 2022</i> - Stanford, California.
 

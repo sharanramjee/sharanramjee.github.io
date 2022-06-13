@@ -4,8 +4,16 @@ permalink: /projects/
 author_profile: true
 ---
 
+<b>[Attention-Weighted Integrated Gradients for Target-Aware Cyberbullying Detection](http://sharanramjee.github.io/projects/cs329t)</b> <br>
+<b>Narutal Language Processing App</b><br>
+<i>Jun. 2022</i>.
+
+<b>[An ML Driven Analysis of Private Equity Funding in Seed-Stage Healthcare Startups](http://sharanramjee.github.io/projects/gene225)</b> <br>
+<b>ML-driven Analysis</b><br>
+<i>Jun. 2022</i>.
+
 <b>[AutoChef: Computer Vision for Automated Ingredient-to-Recipe Matching](http://sharanramjee.github.io/projects/cs329s)</b> <br>
-<b>Computer Vision app</b><br>
+<b>Computer Vision App</b><br>
 <i>Mar. 2022</i>.
 
 <b>[FLITE: Focusing LITE for Memory-Efficient Meta Learning](http://sharanramjee.github.io/projects/cs330)</b> <br>
