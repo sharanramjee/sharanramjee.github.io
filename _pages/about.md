@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a Machine Learning Engineer working at Stripe in San Francisco with the Fraud Discovery Team on developing Machine Learning models for merchant fraud discovery.
+I am a Machine Learning Engineer working at Stripe with the Fraud Discovery Team in San Francisco on developing Machine Learning models for merchant fraud discovery.
 
 I obtained my Master of Science in Computer Science degree with a concentration in Artificial Intelligence from the [Department of Computer Science](https://cs.stanford.edu/) at [Stanford University](https://www.stanford.edu/) in 2022. Prior to Stanford University, I obtained my Bachelor of Science in Computer Engineering from the [Department of Electrical and Computer Engineering](https://engineering.purdue.edu/ECE) at [Purdue University](https://www.purdue.edu) in 2020.
 
