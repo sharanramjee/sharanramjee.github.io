@@ -6,9 +6,13 @@ author_profile: true
 
 ## Accepted/Published
 
+<b>[Ensemble Wrapper Subsampling for Deep Modulation Classification](http://sharanramjee.github.io/publications/tccn2021)</b> <br>
+<b>Sharan Ramjee</b>, Shengtai Ju, Diyu Yang, Xiaoyu Liu, Aly El Gamal, Yonina C. Eldar. <br>
+<i>IEEE Transactions on Cognitive Communications and Networking</i> <span style="color:red">(TCCN)</span> Aug. 2021.
+
 <b>[Efficient Training of Deep Classifiers for Wireless Source Identification using Test SNR Estimates](http://sharanramjee.github.io/publications/wcl2020)</b> <br>
 Xingchen Wang, Shengtai Ju, Xiwen Zhang, <b>Sharan Ramjee</b>, Aly El Gamal. <br>
-<i> IEEE Wireless Communication Letters</i> <span style="color:red">(WCL)</span> Apr. 2020.
+<i>IEEE Wireless Communication Letters</i> <span style="color:red">(WCL)</span> Apr. 2020.
 
 <b>[Deep Learning for Interference Identification: Band, Training SNR, and Sample Selection](http://sharanramjee.github.io/publications/spawc2019)</b> <br>
 Xiwen Zhang, Tolunay Zeyfi, Shengtai Ju, <b>Sharan Ramjee</b>, Aly El Gamal, Yonina C. Eldar. <br>
@@ -23,7 +27,3 @@ Xiwen Zhang, Tolunay Zeyfi, Shengtai Ju, <b>Sharan Ramjee</b>, Aly El Gamal, Yon
 <b>[Efficient Wrapper Feature Selection using Autoencoder and Model Based Elimination](http://sharanramjee.github.io/publications/locs2020)</b> <br>
 <b>Sharan Ramjee</b>, Aly El Gamal. <br>
 Submitted to <i> IEEE Letters of the Computer Society</i> <span style="color:red">(LOCS)</span> May. 2020.
-
-<b>[Ensemble Wrapper Subsampling for Deep Modulation Classification](http://sharanramjee.github.io/publications/tccn2020)</b> <br>
-<b>Sharan Ramjee</b>, Shengtai Ju, Diyu Yang, Xiaoyu Liu, Aly El Gamal, Yonina C. Eldar. <br>
-Submitted to <i>IEEE Transactions on Cognitive Communications and Networking</i> <span style="color:red">(TCCN)</span> May. 2020.

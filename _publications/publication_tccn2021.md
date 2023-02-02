@@ -1,13 +1,13 @@
 ---
 title: "Ensemble Wrapper Subsampling for Deep Modulation Classification"
 collection: publications
-permalink: /publications/tccn2020
+permalink: /publications/tccn2021
 venue: "IEEE Transactions on Cognitive Communications and Networking (TCCN)"
-date: 2020-05-01
-citation: 'Sharan Ramjee, Shengtai Ju, Diyu Yang, Xiaoyu Liu, Aly El Gamal, Yonina C. Eldar. “Ensemble Wrapper Subsampling for Deep Modulation Classification”. Submitted to IEEE Transactions on Cognitive Communications and Networking (TCCN), May. 2020'
+date: 2021-08-01
+citation: 'Sharan Ramjee, Shengtai Ju, Diyu Yang, Xiaoyu Liu, Aly El Gamal, Yonina C. Eldar. “Ensemble Wrapper Subsampling for Deep Modulation Classification”. IEEE Transactions on Cognitive Communications and Networking (TCCN), Aug. 2021'
 ---
 [[ArXiv]](https://arxiv.org/abs/2005.04586)
-[[PDF]](https://sharanramjee.github.io/files/publications/tccn2020.pdf)
+[[PDF]](https://sharanramjee.github.io/files/publications/tccn2021.pdf)
 [[Code]](https://github.com/dl4amc/dds)
 
 ## Abstract
