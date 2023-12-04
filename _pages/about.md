@@ -17,4 +17,4 @@ Beyond my technical acumen, I am committed to staying abreast of the latest deve
 
 In my free time, I like to surf gnarly waves at Pacifica Beach, hike at breathtakingly beautiful National Parks, push myself to new limits weight lifting at the gym, experiment with delicious new recipes in the kitchen, and immerse myself in a wide array of books - from science fiction and fantasy to business and philosophy.
 
-Here is my [Resume](https://sharanramjee.github.io/files/Sharan_Ramjee_Resume.pdf) and [Curriculum Vitae](https://sharanramjee.github.io/files/Sharan_Ramjee_CV.pdf) (updated Dec. 2023).
+Here are my [Resume](https://sharanramjee.github.io/files/Sharan_Ramjee_Resume.pdf) and [Curriculum Vitae](https://sharanramjee.github.io/files/Sharan_Ramjee_CV.pdf) (updated Dec. 2023).
