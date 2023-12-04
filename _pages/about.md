@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello there! My name is Sharan and I'm a forward-thinking Machine Learning Engineer (MLE) that's passionate about pushing the boundary of possibilities through cutting-edge AI. My expertise spans broadly across the field - Natural Language Processing (NLP), Computer Vision (CV), and Graph Neural Networks (GNN), to name a few.
+Hello there! My name is Sharan, and I'm a forward-thinking Machine Learning Engineer (MLE) that's passionate about pushing the boundary of possibilities through cutting-edge AI. My expertise spans broadly across the field - Natural Language Processing (NLP), Computer Vision (CV), and Graph Neural Networks (GNN), to name a few.
 
 At Stripe, I work on maintaining the intricate balance between fraud losses and user experience as an MLE on the Fraud Discovery team. I led a team of engineers, data scientists, fraud strategists, and ops specialists to propose and build Project Scorpion - Stripe's first time-series transformer model for fraud detection that saves $8M / year in fraud losses.  
 
