@@ -13,7 +13,7 @@ At Stripe, I work on maintaining the intricate balance between fraud losses and 
 
 I graduated from Stanford University with a Master of Science in Computer Science (AI concentration) and from Purdue University with a Bachelor of Science in Computer Engineering. A background in both software and hardware empowers me with a holistic approach to problem-solving that spans across both domains.
 
-Beyond my technical acumen, I am committed to staying abreast of the latest developments in AI by actively engaging with the research community, attending conferences, contributing to open-source projects, and collaborating with peers to stay ahead of the curve. I consider myself a visionary who sees the potential of AI to revolutionize the world and actively invest in AI startups as an accredited Angel Investor.
+Beyond my technical acumen, I am committed to staying abreast of the latest developments in AI by actively engaging with the research community, attending conferences, contributing to open-source projects, and collaborating with peers to stay ahead of the curve. As an accredited angel investor, I specialize in supporting and growing innovative AI startups, harnessing cutting-edge technology to shape the future.
 
 In my free time, I like to surf gnarly waves at Pacifica Beach, hike at breathtakingly beautiful National Parks, push myself to new limits weight lifting at the gym, experiment with delicious new recipes in the kitchen, and immerse myself in a wide array of books - from science fiction and fantasy to business and philosophy.
 
