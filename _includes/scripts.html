@@ -1,4 +1,15 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<!-- AOS (Animate On Scroll) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    easing: 'ease-out',
+    once: true,
+    offset: 50
+  });
+</script>
+
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
