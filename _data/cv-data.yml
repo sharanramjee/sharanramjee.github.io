@@ -1,0 +1,320 @@
+# Structured CV Data for Attention-Themed Website
+# Each section maps to an attention visualization metaphor
+
+personal:
+  name: "Sharan Ramjee"
+  tagline: "ML Engineer at Stripe | Stanford CS"
+  blurb: |
+    Forward-thinking Machine Learning Engineer passionate about pushing the boundary
+    of possibilities through cutting-edge AI. From NLP and LLMs to Graph Learning
+    and GNNs - building systems that make a difference.
+
+# Industry Experience - "Long-Context Attention"
+# Higher attention_score = more visual prominence
+industry:
+  - company: "Stripe"
+    role: "Machine Learning Engineer"
+    team: "Fraud Discovery"
+    dates: "2022 - Present"
+    location: "San Francisco, CA"
+    highlights:
+      - "Led Project Scorpion - first time-series transformer for fraud detection"
+      - "Saves $8M/year in fraud losses"
+      - "Built real-time ML inference pipeline serving millions of requests"
+    attention_score: 1.0
+
+  - company: "Google"
+    role: "Software Engineering Intern"
+    team: "Cloud AI"
+    dates: "Summer 2019"
+    location: "Seattle, WA"
+    highlights:
+      - "Worked on model distillation for production ML systems"
+      - "Contributed to TensorFlow Extended (TFX) pipeline"
+    attention_score: 0.7
+
+  - company: "Palo Alto Networks"
+    role: "Software Engineering Intern"
+    team: "Cortex XDR"
+    dates: "Summer 2021"
+    location: "Santa Clara, CA"
+    highlights:
+      - "Built ML-powered threat detection features"
+      - "Project Aerial: CAASM integration"
+    attention_score: 0.75
+
+  - company: "Qualcomm"
+    role: "Machine Learning Intern"
+    team: "QoS Optimization"
+    dates: "Summer 2018"
+    location: "San Diego, CA"
+    highlights:
+      - "Developed ML models for Quality of Service optimization"
+    attention_score: 0.6
+
+# Education
+education:
+  - school: "Stanford University"
+    degree: "M.S. Computer Science"
+    concentration: "Artificial Intelligence"
+    dates: "2020 - 2022"
+    location: "Stanford, CA"
+    attention_score: 0.95
+
+  - school: "Purdue University"
+    degree: "B.S. Computer Engineering"
+    dates: "2016 - 2020"
+    location: "West Lafayette, IN"
+    honors: "With Distinction"
+    attention_score: 0.85
+
+# Research - "Bidirectional Attention"
+# Shows connections between research areas
+research:
+  - area: "Natural Language Processing"
+    subareas: ["LLMs", "Sentiment Analysis", "Cyberbullying Detection"]
+    connections: ["Deep Learning", "Transformers"]
+
+  - area: "Computer Vision"
+    subareas: ["Action Recognition", "Depth Estimation", "Super-Resolution"]
+    connections: ["Deep Learning", "GANs"]
+
+  - area: "Signal Processing"
+    subareas: ["Wireless Communications", "Modulation Classification", "Interference Detection"]
+    connections: ["Deep Learning", "Neural Networks"]
+
+  - area: "Graph Learning"
+    subareas: ["GNNs", "Graph Embeddings", "Network Analysis"]
+    connections: ["Machine Learning", "Fraud Detection"]
+
+# Publications - "Sparse Attention"
+# Only key papers highlighted strongly
+publications:
+  - title: "Ensemble Wrapper Subsampling for Deep Modulation Classification"
+    venue: "IEEE TCCN"
+    year: 2021
+    authors: "Sharan Ramjee, Shengtai Ju, Diyu Yang, Xiaoyu Liu, Aly El Gamal, Yonina C. Eldar"
+    link: "/publications/tccn2021"
+    first_author: true
+    attention_score: 0.95
+
+  - title: "Efficient Training of Deep Classifiers for Wireless Source Identification"
+    venue: "IEEE WCL"
+    year: 2020
+    authors: "Xingchen Wang, Shengtai Ju, Xiwen Zhang, Sharan Ramjee, Aly El Gamal"
+    link: "/publications/wcl2020"
+    first_author: false
+    attention_score: 0.7
+
+  - title: "Deep Learning for Interference Identification: Band, Training SNR, and Sample Selection"
+    venue: "IEEE SPAWC"
+    year: 2019
+    authors: "Xiwen Zhang, Tolunay Zeyfi, Shengtai Ju, Sharan Ramjee, Aly El Gamal, Yonina C. Eldar"
+    link: "/publications/spawc2019"
+    first_author: false
+    attention_score: 0.75
+
+  - title: "Fast Deep Learning for Automatic Modulation Classification"
+    venue: "IEEE MLCETI"
+    year: 2019
+    authors: "Sharan Ramjee, Shengtai Ju, Diyu Yang, Xiaoyu Liu, Aly El Gamal, Yonina C. Eldar"
+    link: "/publications/mlceti2019"
+    first_author: true
+    attention_score: 0.85
+
+# Projects - "Query-Key-Value Flow"
+# Organized by skill -> tech -> project output
+projects:
+  - skill: "NLP"
+    tech: "Transformers"
+    projects:
+      - name: "Cyberbullying Detection with Attention-Weighted IG"
+        link: "/projects/cs329t"
+        date: "2022"
+      - name: "Aspect-Target Sentiment Classification"
+        link: "/projects/cs224n"
+        date: "2021"
+
+  - skill: "Computer Vision"
+    tech: "CNNs & GANs"
+    projects:
+      - name: "Single-Image Stereo Depth Estimation"
+        link: "/projects/cs231a"
+        date: "2021"
+      - name: "Skeleton-based Action Recognition"
+        link: "/projects/cs231n"
+        date: "2021"
+      - name: "Pothole Detection with Super-Resolution"
+        link: "/projects/cs230"
+        date: "2020"
+
+  - skill: "Graph Learning"
+    tech: "GNNs"
+    projects:
+      - name: "Gradient Boosting with Wasserstein Embeddings"
+        link: "/projects/cs224w"
+        date: "2021"
+
+  - skill: "Meta Learning"
+    tech: "Few-Shot"
+    projects:
+      - name: "FLITE: Memory-Efficient Meta Learning"
+        link: "/projects/cs330"
+        date: "2021"
+
+  - skill: "ML Systems"
+    tech: "Production ML"
+    projects:
+      - name: "AutoChef: Ingredient-to-Recipe CV"
+        link: "/projects/cs329s"
+        date: "2022"
+
+# Teaching - "Knowledge Distillation"
+# Teacher -> Student knowledge transfer
+teaching:
+  - role: "Head Teaching Assistant"
+    course: "CS 230: Deep Learning"
+    context: "Stanford University"
+    students: 400
+    knowledge_transfer: 0.95
+    dates: "2021-2022"
+
+  - role: "Course Assistant"
+    course: "CS 221: AI Principles & Techniques"
+    context: "Stanford University"
+    students: 300
+    knowledge_transfer: 0.85
+    dates: "2021"
+
+  - role: "Course Assistant"
+    course: "CS 142: Web Applications"
+    context: "Stanford University"
+    students: 150
+    knowledge_transfer: 0.8
+    dates: "2020"
+
+# Leadership - "Graph Attention"
+# Node connections showing influence without direct authority
+leadership:
+  - org: "Purdue IEEE Computer Society"
+    role: "President"
+    dates: "2018 - 2019"
+    impact_score: 0.9
+    description: "Led 50+ member org, organized workshops and hackathons"
+    connections:
+      - to: "IEEE"
+        weight: 0.8
+      - to: "CSOCIETY"
+        weight: 0.9
+
+  - org: "TreeHacks"
+    role: "Organizer"
+    dates: "2021 - 2022"
+    impact_score: 0.85
+    description: "Stanford's largest hackathon, 1500+ participants"
+
+  - org: "Autonomous Motorsports Purdue"
+    role: "Software Lead"
+    dates: "2017 - 2019"
+    impact_score: 0.8
+    description: "Led team developing autonomous racing algorithms"
+    connections:
+      - to: "SAE"
+        weight: 0.6
+
+  - org: "Undergraduate Research Student Program"
+    role: "Research Assistant"
+    dates: "2017 - 2020"
+    impact_score: 0.75
+    description: "Deep learning for wireless communications"
+
+# Talks - "Decoder Outputs"
+# Sequential generation of talks over time
+talks:
+  - title: "Model Distillation"
+    venue: "Google Cloud AI"
+    location: "Seattle, WA"
+    date: "2019-12-04"
+    type: "Industry"
+    link: "/talks/google2019"
+
+  - title: "QoS Optimization with ML"
+    venue: "Qualcomm"
+    location: "San Diego, CA"
+    date: "2019-08-15"
+    type: "Industry"
+    link: "/talks/qualcomm2019"
+
+  - title: "Deep Learning for Interference Identification"
+    venue: "IEEE SPAWC"
+    location: "Cannes, France"
+    date: "2019-07-02"
+    type: "Conference"
+    link: "/talks/spawc2019"
+
+  - title: "Deep Learning for Style Transfer"
+    venue: "Purdue IEEE CSOCIETY"
+    location: "West Lafayette, IN"
+    date: "2018-11-15"
+    type: "Workshop"
+    link: "/talks/csociety2018"
+
+# Skills - "Multi-Head Attention"
+# Each head focuses on different skill domain
+skills:
+  heads:
+    - name: "Languages"
+      color: "#ff69b4"
+      items:
+        - skill: "Python"
+          proficiency: 0.95
+        - skill: "Java"
+          proficiency: 0.85
+        - skill: "C++"
+          proficiency: 0.75
+        - skill: "JavaScript"
+          proficiency: 0.7
+        - skill: "SQL"
+          proficiency: 0.8
+
+    - name: "ML Frameworks"
+      color: "#ffa500"
+      items:
+        - skill: "PyTorch"
+          proficiency: 0.95
+        - skill: "TensorFlow"
+          proficiency: 0.85
+        - skill: "Hugging Face"
+          proficiency: 0.9
+        - skill: "JAX"
+          proficiency: 0.7
+        - skill: "scikit-learn"
+          proficiency: 0.9
+
+    - name: "ML Domains"
+      color: "#7fff00"
+      items:
+        - skill: "NLP / LLMs"
+          proficiency: 0.9
+        - skill: "Computer Vision"
+          proficiency: 0.85
+        - skill: "Graph Neural Networks"
+          proficiency: 0.8
+        - skill: "Reinforcement Learning"
+          proficiency: 0.7
+        - skill: "Time Series"
+          proficiency: 0.85
+
+    - name: "Infrastructure"
+      color: "#e0b0ff"
+      items:
+        - skill: "AWS"
+          proficiency: 0.8
+        - skill: "GCP"
+          proficiency: 0.75
+        - skill: "Docker"
+          proficiency: 0.8
+        - skill: "Kubernetes"
+          proficiency: 0.7
+        - skill: "Spark"
+          proficiency: 0.75

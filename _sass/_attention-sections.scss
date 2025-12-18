@@ -1,0 +1,408 @@
+/* ==========================================================================
+   ATTENTION SECTIONS
+   Styles for the single-page attention-themed layout - Vintage theme
+   ========================================================================== */
+
+/* Vintage color variables */
+$vintage-dark: #3a2a1d;
+$vintage-medium: #4a3728;
+$vintage-brown: #6b5344;
+$vintage-light: #8b7355;
+$vintage-muted: #a89078;
+$vintage-bg: #f4efe4;
+$vintage-border: rgba(74, 55, 40, 0.2);
+
+/* Base section styles */
+.attention-section {
+  padding: 4rem 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include breakpoint($small) {
+    padding: 5rem 3rem;
+  }
+
+  &__header {
+    text-align: center;
+    margin-bottom: 2rem;
+    max-width: 800px;
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    color: $vintage-dark;
+    margin-bottom: 0.5rem;
+    position: relative;
+    display: inline-block;
+
+    @include breakpoint($small) {
+      font-size: 3rem;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 3px;
+      background: $vintage-medium;
+      border-radius: 2px;
+    }
+  }
+
+  &__subtitle {
+    font-size: $type-size-6;
+    color: $vintage-brown;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+  }
+
+  &__viz-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 1rem auto;
+    position: relative;
+
+    svg {
+      width: 100%;
+      height: auto;
+    }
+
+    &:empty {
+      display: none;
+    }
+  }
+
+  &__content {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: rgba(255, 252, 245, 0.85);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px;
+    border: 1px solid $vintage-border;
+    box-shadow: 0 4px 20px rgba(74, 55, 40, 0.1);
+  }
+}
+
+/* Experience items (Industry) */
+.experience-item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid $vintage-border;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__company {
+    font-size: $type-size-4;
+    color: $vintage-dark;
+    margin: 0;
+  }
+
+  &__dates {
+    font-size: $type-size-6;
+    color: $vintage-brown;
+  }
+
+  &__role {
+    color: $vintage-medium;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+
+  &__highlights {
+    margin: 0;
+    padding-left: 1.25rem;
+
+    li {
+      margin-bottom: 0.5rem;
+      color: $vintage-brown;
+    }
+  }
+}
+
+/* Research items */
+.research-item {
+  padding: 1rem 0;
+
+  &__area {
+    font-size: $type-size-5;
+    color: $vintage-dark;
+    margin-bottom: 0.75rem;
+  }
+
+  &__subareas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+}
+
+/* Tag component */
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: rgba(74, 55, 40, 0.08);
+  border: 1px solid $vintage-border;
+  border-radius: 20px;
+  font-size: $type-size-7;
+  color: $vintage-medium;
+}
+
+/* Publication items */
+.publication-item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid $vintage-border;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &__title {
+    font-size: $type-size-5;
+    color: $vintage-dark;
+    margin-bottom: 0.5rem;
+  }
+
+  &__venue {
+    color: $vintage-brown;
+    font-size: $type-size-6;
+    margin-bottom: 0.5rem;
+  }
+
+  &__link {
+    color: $vintage-medium;
+    text-decoration: none;
+    font-size: $type-size-6;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: $vintage-dark;
+      text-decoration: underline;
+    }
+  }
+}
+
+/* Project groups (Q-K-V layout) */
+.project-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid $vintage-border;
+
+  @include breakpoint($small) {
+    grid-template-columns: 1fr 1fr 2fr;
+    align-items: center;
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &__query {
+    font-weight: bold;
+    color: $vintage-dark;
+    padding: 0.5rem 1rem;
+    border: 1px solid $vintage-border;
+    border-radius: 8px;
+    text-align: center;
+    background: rgba(74, 55, 40, 0.05);
+  }
+
+  &__key {
+    color: $vintage-medium;
+    padding: 0.5rem 1rem;
+    border: 1px solid $vintage-border;
+    border-radius: 8px;
+    text-align: center;
+    background: rgba(74, 55, 40, 0.03);
+  }
+
+  &__values {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+.project-item {
+  a {
+    color: $vintage-dark;
+    text-decoration: none;
+
+    &:hover {
+      color: $vintage-medium;
+      text-decoration: underline;
+    }
+  }
+}
+
+/* Teaching items */
+.teaching-item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid $vintage-border;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &__role {
+    font-size: $type-size-5;
+    color: $vintage-dark;
+    margin-bottom: 0.25rem;
+  }
+
+  &__context {
+    color: $vintage-brown;
+  }
+}
+
+/* Leadership items */
+.leadership-item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid $vintage-border;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &__org {
+    font-size: $type-size-5;
+    color: $vintage-dark;
+    margin-bottom: 0.25rem;
+  }
+
+  &__role {
+    color: $vintage-medium;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+
+  &__dates {
+    font-size: $type-size-6;
+    color: $vintage-brown;
+  }
+}
+
+/* Talk items */
+.talk-item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid $vintage-border;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &__title {
+    font-size: $type-size-5;
+    color: $vintage-dark;
+    margin-bottom: 0.25rem;
+  }
+
+  &__venue {
+    color: $vintage-medium;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+
+  &__date {
+    font-size: $type-size-6;
+    color: $vintage-brown;
+  }
+}
+
+/* Skill heads (multi-head attention) */
+.skill-head {
+  margin-bottom: 2rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__name {
+    font-size: $type-size-5;
+    color: $vintage-dark;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: $vintage-medium;
+    }
+  }
+
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  &__name {
+    min-width: 120px;
+    color: $vintage-brown;
+    font-size: $type-size-6;
+  }
+
+  &__bar {
+    height: 8px;
+    background: $vintage-medium;
+    border-radius: 4px;
+    transition: width 0.5s ease;
+  }
+}
+
+/* Footer */
+.attention-footer {
+  padding: 4rem 2rem;
+  text-align: center;
+  border-top: 1px solid $vintage-border;
+  margin-top: 4rem;
+
+  a {
+    color: $vintage-medium;
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: $vintage-dark;
+      text-decoration: underline;
+    }
+  }
+
+  &__kl {
+    margin-top: 1rem;
+    font-size: $type-size-7;
+    color: $vintage-brown;
+    font-family: $monospace;
+  }
+}

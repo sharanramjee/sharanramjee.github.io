@@ -1,0 +1,232 @@
+---
+layout: compress
+---
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 | default: 'en' }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="attention-home">
+
+    <!-- Top Navigation Bar -->
+    <nav class="attention-nav">
+      <div class="attention-nav__inner">
+        <a href="#hero" class="attention-nav__logo">SR</a>
+        <div class="attention-nav__links">
+          <a href="#industry" class="attention-nav__link">Industry</a>
+          <a href="#research" class="attention-nav__link">Research</a>
+          <a href="#publications" class="attention-nav__link">Publications</a>
+          <a href="#projects" class="attention-nav__link">Projects</a>
+          <a href="#teaching" class="attention-nav__link">Teaching</a>
+          <a href="#leadership" class="attention-nav__link">Leadership</a>
+          <a href="#talks" class="attention-nav__link">Talks</a>
+          <a href="#skills" class="attention-nav__link">Skills</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Single-Page Content -->
+    <main id="attention-content">
+
+      <!-- Hero Section -->
+      <section id="hero" class="attention-section attention-section--hero">
+        <div class="hero__intro">
+          <h1 class="hero__name">{{ site.author.name }}</h1>
+          <p class="hero__tagline">{{ site.author.bio }}</p>
+          <div class="hero__blurb">
+            {{ content }}
+          </div>
+          <div class="hero__links">
+            {% if site.author.googlescholar %}
+              <a href="{{ site.author.googlescholar }}" class="hero__link" target="_blank" rel="noopener">
+                <i class="ai ai-google-scholar"></i> <span>Scholar</span>
+              </a>
+            {% endif %}
+            {% if site.author.github %}
+              <a href="https://github.com/{{ site.author.github }}" class="hero__link" target="_blank" rel="noopener">
+                <i class="fab fa-github"></i> <span>GitHub</span>
+              </a>
+            {% endif %}
+            {% if site.author.linkedin %}
+              <a href="https://linkedin.com/in/{{ site.author.linkedin }}" class="hero__link" target="_blank" rel="noopener">
+                <i class="fab fa-linkedin"></i> <span>LinkedIn</span>
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      </section>
+
+      <!-- Industry Experience Section -->
+      <section id="industry" class="attention-section">
+        <div class="attention-section__header">
+          <h2 class="attention-section__title">Industry Experience</h2>
+        </div>
+        <div class="attention-section__content">
+          {% for item in site.data.cv-data.industry %}
+            <div class="experience-item">
+              <div class="experience-item__header">
+                <h3 class="experience-item__company">{{ item.company }}</h3>
+                <span class="experience-item__dates">{{ item.dates }}</span>
+              </div>
+              <p class="experience-item__role">{{ item.role }}{% if item.team %} - {{ item.team }}{% endif %}</p>
+              {% if item.highlights %}
+                <ul class="experience-item__highlights">
+                  {% for highlight in item.highlights %}
+                    <li>{{ highlight }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- Research Section -->
+      <section id="research" class="attention-section">
+        <div class="attention-section__header">
+          <h2 class="attention-section__title">Research</h2>
+        </div>
+        <div class="attention-section__content">
+          {% for item in site.data.cv-data.research %}
+            <div class="research-item">
+              <h3 class="research-item__area">{{ item.area }}</h3>
+              {% if item.subareas %}
+                <div class="research-item__subareas">
+                  {% for subarea in item.subareas %}
+                    <span class="tag">{{ subarea }}</span>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- Publications Section -->
+      <section id="publications" class="attention-section">
+        <div class="attention-section__header">
+          <h2 class="attention-section__title">Publications</h2>
+        </div>
+        <div class="attention-section__content">
+          {% for item in site.data.cv-data.publications %}
+            <div class="publication-item">
+              <h3 class="publication-item__title">{{ item.title }}</h3>
+              <p class="publication-item__venue">{{ item.venue }} ({{ item.year }})</p>
+              {% if item.link %}
+                <a href="{{ item.link }}" class="publication-item__link" target="_blank">View Paper</a>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="attention-section">
+        <div class="attention-section__header">
+          <h2 class="attention-section__title">Projects</h2>
+        </div>
+        <div class="attention-section__content">
+          {% for group in site.data.cv-data.projects %}
+            <div class="project-group">
+              <div class="project-group__query">{{ group.skill }}</div>
+              <div class="project-group__key">{{ group.tech }}</div>
+              <div class="project-group__values">
+                {% for project in group.projects %}
+                  <div class="project-item">
+                    <a href="{{ project.link }}">{{ project.name }}</a>
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- Teaching Section -->
+      <section id="teaching" class="attention-section">
+        <div class="attention-section__header">
+          <h2 class="attention-section__title">Teaching</h2>
+        </div>
+        <div class="attention-section__content">
+          {% for item in site.data.cv-data.teaching %}
+            <div class="teaching-item">
+              <h3 class="teaching-item__role">{{ item.role }}</h3>
+              <p class="teaching-item__context">{{ item.context }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- Leadership Section -->
+      <section id="leadership" class="attention-section">
+        <div class="attention-section__header">
+          <h2 class="attention-section__title">Leadership</h2>
+        </div>
+        <div class="attention-section__content">
+          {% for item in site.data.cv-data.leadership %}
+            <div class="leadership-item">
+              <h3 class="leadership-item__org">{{ item.org }}</h3>
+              <p class="leadership-item__role">{{ item.role }}</p>
+              <span class="leadership-item__dates">{{ item.dates }}</span>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- Talks Section -->
+      <section id="talks" class="attention-section">
+        <div class="attention-section__header">
+          <h2 class="attention-section__title">Talks</h2>
+        </div>
+        <div class="attention-section__content">
+          {% for item in site.data.cv-data.talks %}
+            <div class="talk-item">
+              <h3 class="talk-item__title">{{ item.title }}</h3>
+              <p class="talk-item__venue">{{ item.venue }}</p>
+              <span class="talk-item__date">{{ item.date }}</span>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="attention-section">
+        <div class="attention-section__header">
+          <h2 class="attention-section__title">Skills</h2>
+        </div>
+        <div class="attention-section__content">
+          {% for head in site.data.cv-data.skills.heads %}
+            <div class="skill-head">
+              <h3 class="skill-head__name">{{ head.name }}</h3>
+              <div class="skill-head__items">
+                {% for item in head.items %}
+                  <div class="skill-item">
+                    <span class="skill-item__name">{{ item.skill }}</span>
+                    <div class="skill-item__bar" style="width: {{ item.proficiency | times: 100 }}%"></div>
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="attention-footer">
+        <p>
+          <a href="https://sharanramjee.github.io/files/Sharan_Ramjee_Resume.pdf" target="_blank">Resume</a>
+          &middot;
+          <a href="https://sharanramjee.github.io/files/Sharan_Ramjee_CV.pdf" target="_blank">CV</a>
+        </p>
+      </footer>
+
+    </main>
+
+    {% include scripts.html %}
+
+  </body>
+</html>

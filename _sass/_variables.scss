@@ -53,18 +53,20 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+/* Dark Theme Colors */
+$body-color                 : #000000;
+$background-color           : #000000;
+$code-background-color      : #111111;
+$code-background-color-dark : #1a1a1a;
+$text-color                 : #ffffff;
+$muted-text-color           : #a0a0a0;
+$border-color               : #222222;
 
-$primary-color              : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
-$danger-color               : #ee5f5b;
-$info-color                 : #52adc8;
+$primary-color              : #ff69b4;  /* Pink - matches neural network */
+$success-color              : #7fff00;  /* Chartreuse green */
+$warning-color              : #ffa500;  /* Orange */
+$danger-color               : #ff1493;  /* Deep pink */
+$info-color                 : #e0b0ff;  /* Lavender */
 
 /* brands */
 $behance-color              : #1769FF;
@@ -90,11 +92,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$link-color                 : #ff69b4;  /* Pink */
+$link-color-hover           : #ffa500;  /* Orange on hover */
+$link-color-visited         : #e0b0ff;  /* Lavender */
+$masthead-link-color        : #ffffff;  /* White nav links */
+$masthead-link-color-hover  : #ff69b4;  /* Pink on hover */
 
 
 /*
