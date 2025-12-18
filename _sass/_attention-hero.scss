@@ -1,0 +1,191 @@
+/* ==========================================================================
+   ATTENTION HERO
+   Hero section and top navigation
+   ========================================================================== */
+
+/* Top Navigation Bar - vintage style */
+.attention-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: rgba(244, 239, 228, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(74, 55, 40, 0.2);
+
+  &__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.75rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #4a3728;
+  }
+
+  &__links {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @media (max-width: $medium) {
+      gap: 0.25rem;
+    }
+  }
+
+  &__link {
+    padding: 0.5rem 1rem;
+    color: #6b5344;
+    text-decoration: none;
+    font-size: $type-size-6;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+
+    @media (max-width: $medium) {
+      padding: 0.4rem 0.6rem;
+      font-size: $type-size-7;
+    }
+
+    &:hover {
+      color: #4a3728;
+      background: rgba(74, 55, 40, 0.1);
+    }
+
+    &--active {
+      color: #4a3728;
+      background: rgba(74, 55, 40, 0.15);
+    }
+  }
+}
+
+/* Hero Section */
+.attention-section--hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 2rem 4rem;
+  position: relative;
+}
+
+/* Hero Intro Content */
+.hero__intro {
+  text-align: center;
+  max-width: 700px;
+  padding: 2rem;
+
+  @media (max-width: $small) {
+    padding: 1.5rem;
+  }
+}
+
+.hero__name {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #3a2a1d;
+
+  @media (max-width: $small) {
+    font-size: 2rem;
+  }
+}
+
+.hero__tagline {
+  font-size: $type-size-5;
+  color: #6b5344;
+  margin-bottom: 1.5rem;
+}
+
+.hero__blurb {
+  font-size: $type-size-6;
+  line-height: 1.6;
+  color: #5a4a3a;
+  margin-bottom: 1.5rem;
+
+  p {
+    margin-bottom: 0.75rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.hero__links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.hero__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  color: #4a3728;
+  text-decoration: none;
+  border: 1px solid rgba(74, 55, 40, 0.4);
+  border-radius: 25px;
+  font-size: $type-size-6;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: #3a2a1d;
+    border-color: #4a3728;
+    background: rgba(74, 55, 40, 0.08);
+  }
+
+  i {
+    font-size: 1.1rem;
+  }
+}
+
+/* Attention home body class - vintage parchment look */
+.attention-home {
+  background-color: #f4efe4;
+  overflow-x: hidden;
+}
+
+/* Neural network background canvas */
+.neural-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Code snippets background */
+.code-background {
+  z-index: 0 !important;
+}
+
+.code-snippet {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Main content above neural background */
+#attention-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Offset for fixed nav when scrolling to sections */
+.attention-section {
+  scroll-margin-top: 70px;
+}

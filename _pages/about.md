@@ -1,11 +1,9 @@
 ---
-permalink: /
+permalink: /about-old/
 title: "Biography"
 excerpt: "About me"
 author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
+published: false
 ---
 Hello there! My name is Sharan, and I'm a forward-thinking Machine Learning Engineer (MLE) that's passionate about pushing the boundary of possibilities through cutting-edge AI. My expertise spans broadly across the field - from Natural Language Processing (NLP) and Large Language Models (LLMs) to Graph Learning (GL) and Graph Neural Networks (GNNs).
 
