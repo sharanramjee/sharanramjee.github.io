@@ -883,23 +883,32 @@
         }
       }
 
-      // Draw synapses
+      // Draw synapses as thin laser lines along edges
       this.synapses.forEach(synapse => {
         const source = this.nodes[synapse.sourceIndex];
         const target = this.nodes[synapse.targetIndex];
         if (!source || !target) return;
 
         const progress = Math.min(synapse.progress, 1);
-        const pulseX = source.x + (target.x - source.x) * progress;
-        const pulseY = source.y + (target.y - source.y) * progress;
         const fadeOut = synapse.progress > 1 ? 1 - (synapse.progress - 1) / 0.1 : 1;
         const alpha = synapse.intensity * fadeOut;
-        const size = 2.5 + synapse.intensity * 2.5;
+
+        // Draw a short laser segment traveling along the edge
+        const laserLength = 0.15; // Length of laser as fraction of total distance
+        const startProgress = Math.max(0, progress - laserLength);
+        const endProgress = progress;
+
+        const startX = source.x + (target.x - source.x) * startProgress;
+        const startY = source.y + (target.y - source.y) * startProgress;
+        const endX = source.x + (target.x - source.x) * endProgress;
+        const endY = source.y + (target.y - source.y) * endProgress;
 
         this.ctx.beginPath();
-        this.ctx.fillStyle = `rgba(55, 40, 28, ${alpha * 0.9})`;
-        this.ctx.arc(pulseX, pulseY, size, 0, Math.PI * 2);
-        this.ctx.fill();
+        this.ctx.strokeStyle = `rgba(74, 55, 40, ${alpha * 0.8})`;
+        this.ctx.lineWidth = 1.5;
+        this.ctx.moveTo(startX, startY);
+        this.ctx.lineTo(endX, endY);
+        this.ctx.stroke();
       });
 
       // Draw nodes
