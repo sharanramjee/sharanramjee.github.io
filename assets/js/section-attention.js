@@ -7,7 +7,8 @@
 (function() {
   'use strict';
 
-  const ATTENTION_COLORS = ['#ff69b4', '#ffa500', '#7fff00'];
+  // Vintage sepia/brown colors for treasure map look
+  const ATTENTION_COLORS = ['#8b7355', '#6b5344', '#4a3728'];
 
   class WordAttention {
     constructor() {
@@ -164,9 +165,10 @@
       path.setAttribute('d', d);
       path.setAttribute('fill', 'none');
       path.setAttribute('stroke', color);
-      path.setAttribute('stroke-width', 1 + weight * 2.5);
-      path.setAttribute('stroke-opacity', 0.15 + weight * 0.25);
+      path.setAttribute('stroke-width', 1.5 + weight * 2);
+      path.setAttribute('stroke-opacity', 0.4 + weight * 0.4);
       path.setAttribute('stroke-linecap', 'round');
+      path.setAttribute('stroke-dasharray', '4, 6'); // Dotted line like treasure map
 
       this.svg.appendChild(path);
     }
@@ -189,11 +191,11 @@
     }
 
     .attention-word:hover {
-      background: rgba(255, 105, 180, 0.15);
+      background: rgba(74, 55, 40, 0.12);
     }
 
     .attention-word--active {
-      background: rgba(255, 105, 180, 0.25) !important;
+      background: rgba(74, 55, 40, 0.2) !important;
     }
   `;
   document.head.appendChild(style);
