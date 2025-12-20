@@ -36,26 +36,27 @@ layout: compress
       <section id="hero" class="attention-section attention-section--hero">
         <div class="hero__intro">
           <h1 class="hero__name">{{ site.author.name }}</h1>
-          <p class="hero__tagline">{{ site.author.bio }}</p>
           <div class="hero__blurb">
             {{ content }}
           </div>
           <div class="hero__links">
-            {% if site.author.googlescholar %}
-              <a href="{{ site.author.googlescholar }}" class="hero__link" target="_blank" rel="noopener">
-                <i class="ai ai-google-scholar"></i> <span>Scholar</span>
-              </a>
-            {% endif %}
-            {% if site.author.github %}
-              <a href="https://github.com/{{ site.author.github }}" class="hero__link" target="_blank" rel="noopener">
-                <i class="fab fa-github"></i> <span>GitHub</span>
-              </a>
-            {% endif %}
-            {% if site.author.linkedin %}
-              <a href="https://linkedin.com/in/{{ site.author.linkedin }}" class="hero__link" target="_blank" rel="noopener">
-                <i class="fab fa-linkedin"></i> <span>LinkedIn</span>
-              </a>
-            {% endif %}
+            <a href="https://linkedin.com/in/{{ site.author.linkedin }}" class="hero__link" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin"></i> <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/{{ site.author.github }}" class="hero__link" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i> <span>GitHub</span>
+            </a>
+            <a href="{{ site.author.googlescholar }}" class="hero__link" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i> <span>Scholar</span>
+            </a>
+          </div>
+          <div class="hero__links">
+            <a href="{{ base_path }}/files/Sharan_Ramjee_Resume.pdf" class="hero__link" target="_blank" rel="noopener">
+              <i class="fas fa-file-alt"></i> <span>Resume</span>
+            </a>
+            <a href="{{ base_path }}/files/Sharan_Ramjee_CV.pdf" class="hero__link" target="_blank" rel="noopener">
+              <i class="fas fa-scroll"></i> <span>CV</span>
+            </a>
           </div>
         </div>
       </section>

@@ -5,8 +5,6 @@ title: "Sharan Ramjee"
 excerpt: "ML Engineer | Stanford CS | Pushing the boundaries of AI"
 ---
 
-Hello there! My name is Sharan, and I'm a forward-thinking Machine Learning Engineer passionate about pushing the boundary of possibilities through cutting-edge AI. My expertise spans broadly across the field - from Natural Language Processing (NLP) and Large Language Models (LLMs) to Graph Learning (GL) and Graph Neural Networks (GNNs).
+I'm a Machine Learning Engineer passionate about bridging the gap between AI research and production systems. I hold a Master's degree in Computer Science (AI concentration) from Stanford University and a Bachelor's degree in Computer Engineering from Purdue University.
 
-At Stripe, I work on maintaining the intricate balance between fraud losses and user experience. I led a team to build Project Scorpion - Stripe's first time-series transformer model for fraud detection.
-
-I graduated from Stanford University with a Master of Science in Computer Science (AI concentration) and from Purdue University with a Bachelor of Science in Computer Engineering.
+When I'm not training models, you'll find me inventing new cocktails, DJing house and techno, chasing waves surfing, or traveling to exotic destinations. If you'd like to chat about my work or anything else, feel free to reach out to me at sharanramjee [at] gmail [dot] com.
