@@ -567,6 +567,38 @@
       }
 
       return points;
+    },
+
+    // Saddle (hyperbolic paraboloid) - Pringles chip shape
+    saddle: (count) => {
+      const points = [];
+      const size = 0.55;
+
+      // Grid-based distribution for even coverage
+      const gridSize = Math.ceil(Math.sqrt(count));
+
+      for (let i = 0; i < count; i++) {
+        const row = Math.floor(i / gridSize);
+        const col = i % gridSize;
+
+        // Map to -1 to 1 range
+        const u = (col / (gridSize - 1)) * 2 - 1;
+        const v = (row / (gridSize - 1)) * 2 - 1;
+
+        // Hyperbolic paraboloid: y = x² - z²
+        const x = u * size;
+        const z = v * size;
+        const y = (u * u - v * v) * size * 0.7;
+
+        // Add slight noise for organic feel
+        points.push({
+          x: x + (Math.random() - 0.5) * 0.02,
+          y: y + (Math.random() - 0.5) * 0.02,
+          z: z + (Math.random() - 0.5) * 0.02
+        });
+      }
+
+      return points;
     }
   };
 
@@ -575,12 +607,12 @@
     'hero': 'sphere',
     'industry': 'autoencoder',
     'research': 'mobius',
-    'publications': 'resnet',
-    'projects': 'dna',
-    'teaching': 'mlp',
-    'leadership': 'donut',
-    'talks': 'unet',
-    'skills': 'autoencoder'
+    'publications': 'mlp',
+    'patents': 'dna',
+    'projects': 'unet',
+    'teaching': 'donut',
+    'leadership': 'resnet',
+    'awards': 'saddle'
   };
 
   class NeuralBackground {
@@ -942,9 +974,16 @@
     }
   }
 
+  // Only run on attention-home pages
+  function init() {
+    if (document.body && document.body.classList.contains('attention-home')) {
+      new NeuralBackground();
+    }
+  }
+
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => new NeuralBackground());
+    document.addEventListener('DOMContentLoaded', init);
   } else {
-    new NeuralBackground();
+    init();
   }
 })();

@@ -591,7 +591,9 @@ loss = loss_fn(logits, labels)`,
     }
 
     createSnippets() {
-      const snippetCount = Math.min(50, codeSnippets.length);
+      // Use fewer snippets on subpages (not attention-home)
+      const isHomepage = document.body.classList.contains('attention-home');
+      const snippetCount = isHomepage ? Math.min(50, codeSnippets.length) : 5;
       const usedSnippets = this.shuffleArray([...codeSnippets]).slice(0, snippetCount);
 
       usedSnippets.forEach((code, i) => {

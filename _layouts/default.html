@@ -12,9 +12,12 @@ layout: compress
   </head>
 
   <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    <!-- Navigation Bar (same style as homepage) -->
+    <nav class="attention-nav">
+      <div class="attention-nav__inner">
+        <a href="{{ base_path }}/" class="attention-nav__logo">SR</a>
+      </div>
+    </nav>
 
     {{ content }}
 

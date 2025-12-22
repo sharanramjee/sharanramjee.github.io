@@ -92,8 +92,8 @@ $vintage-border: rgba(74, 55, 40, 0.2);
   }
 }
 
-/* Experience items (Industry) */
-.experience-item {
+/* Experience - Company level */
+.experience-company {
   padding: 1.5rem 0;
   border-bottom: 1px solid $vintage-border;
 
@@ -103,38 +103,128 @@ $vintage-border: rgba(74, 55, 40, 0.2);
 
   &__header {
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 0.5rem;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
   }
 
-  &__company {
+  &__logo {
+    height: 28px;
+    width: auto;
+    max-width: 40px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+
+  &__name {
     font-size: $type-size-4;
     color: $vintage-dark;
     margin: 0;
+    flex-grow: 1;
   }
 
-  &__dates {
+  &__location {
     font-size: $type-size-6;
     color: $vintage-brown;
+    font-weight: bold;
+  }
+
+  &__positions {
+    padding-left: 1rem;
+    border-left: 2px solid $vintage-border;
+  }
+}
+
+/* Experience - Position level */
+.experience-position {
+  padding: 1rem 0;
+  padding-left: 1rem;
+
+  &:first-child {
+    padding-top: 0;
+  }
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
   }
 
   &__role {
     color: $vintage-medium;
     font-weight: 600;
-    margin-bottom: 0.75rem;
+    flex: 1;
+    min-width: 0;
+  }
+
+  &__dates {
+    font-size: $type-size-6;
+    color: $vintage-brown;
+    flex-shrink: 0;
+    white-space: nowrap;
   }
 
   &__highlights {
     margin: 0;
-    padding-left: 1.25rem;
+    padding-left: 0;
+    list-style: none;
 
     li {
       margin-bottom: 0.5rem;
       color: $vintage-brown;
     }
+  }
+
+  &__tech {
+    font-size: $type-size-6;
+    color: $vintage-muted;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  &__tech-label {
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  &__tech-items {
+    font-style: italic;
+  }
+
+  &__tech-link {
+    font-style: italic;
+    color: $vintage-medium;
+    text-decoration: underline;
+
+    &:hover {
+      color: $vintage-dark;
+    }
+  }
+}
+
+/* Publication link button */
+.publication-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  font-size: $type-size-6;
+  color: $vintage-medium;
+  background: rgba(74, 55, 40, 0.08);
+  border: 1px solid $vintage-border;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: rgba(74, 55, 40, 0.15);
+    color: $vintage-dark;
   }
 }
 
@@ -244,14 +334,39 @@ $vintage-border: rgba(74, 55, 40, 0.2);
 }
 
 .project-item {
-  a {
-    color: $vintage-dark;
-    text-decoration: none;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid $vintage-border;
 
-    &:hover {
-      color: $vintage-medium;
-      text-decoration: underline;
-    }
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  &__title {
+    font-size: $type-size-5;
+    color: $vintage-dark;
+    margin: 0;
+    flex: 1;
+    min-width: 0;
+  }
+
+  &__type {
+    color: $vintage-medium;
+    margin-bottom: 0;
+  }
+
+  &__date {
+    font-size: $type-size-6;
+    color: $vintage-brown;
+    flex-shrink: 0;
+    white-space: nowrap;
   }
 }
 
@@ -302,8 +417,8 @@ $vintage-border: rgba(74, 55, 40, 0.2);
   }
 }
 
-/* Talk items */
-.talk-item {
+/* Award items */
+.award-item {
   padding: 1.5rem 0;
   border-bottom: 1px solid $vintage-border;
 
@@ -311,16 +426,24 @@ $vintage-border: rgba(74, 55, 40, 0.2);
     border-bottom: none;
   }
 
-  &__title {
-    font-size: $type-size-5;
-    color: $vintage-dark;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.5rem;
     margin-bottom: 0.25rem;
   }
 
-  &__venue {
+  &__title {
+    font-size: $type-size-5;
+    color: $vintage-dark;
+    margin: 0;
+  }
+
+  &__org {
     color: $vintage-medium;
-    font-weight: 600;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0;
   }
 
   &__date {

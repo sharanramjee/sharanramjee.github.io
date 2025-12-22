@@ -55,22 +55,17 @@
 
     processContentSections() {
       const selectors = [
-        '.experience-item__company',
-        '.experience-item__role',
-        '.experience-item__highlights li',
-        '.publication-item__title',
-        '.publication-item__venue',
-        '.teaching-item__role',
-        '.teaching-item__context',
-        '.leadership-item__org',
-        '.leadership-item__role',
-        '.talk-item__title',
-        '.talk-item__venue',
-        '.research-item__area',
-        '.project-group__query',
-        '.project-group__key',
-        '.project-item',
-        '.skill-item__name',
+        '.experience-company__name',
+        '.experience-position__role',
+        '.experience-position__highlights li',
+        '.experience-position__tech-items',
+        '.publication-title',
+        '.publication-venue',
+        '.award-item__title',
+        '.award-item__org',
+        '.project-item__title',
+        '.project-item__type',
+        '.patent-title',
         '.hero__blurb p'
       ];
 
@@ -85,24 +80,39 @@
       if (element.dataset.wordsProcessed) return;
       element.dataset.wordsProcessed = 'true';
 
-      const text = element.textContent;
-      const words = text.split(/(\s+)/);
+      let wordIndex = 0;
+      this.processNode(element, wordIndex);
+    }
 
-      element.innerHTML = '';
+    processNode(element, wordIndex) {
+      const childNodes = Array.from(element.childNodes);
 
-      words.forEach((word, index) => {
-        if (word.trim() === '') {
-          element.appendChild(document.createTextNode(word));
-        } else {
-          const span = document.createElement('span');
-          span.className = 'attention-word';
-          span.textContent = word;
-          span.dataset.wordIndex = index;
+      childNodes.forEach(node => {
+        if (node.nodeType === Node.TEXT_NODE) {
+          const text = node.textContent;
+          const words = text.split(/(\s+)/);
 
-          span.addEventListener('mouseenter', () => this.handleWordHover(span));
-          span.addEventListener('mouseleave', () => this.handleWordLeave());
+          const fragment = document.createDocumentFragment();
+          words.forEach(word => {
+            if (word.trim() === '') {
+              fragment.appendChild(document.createTextNode(word));
+            } else {
+              const span = document.createElement('span');
+              span.className = 'attention-word';
+              span.textContent = word;
+              span.dataset.wordIndex = wordIndex++;
 
-          element.appendChild(span);
+              span.addEventListener('mouseenter', () => this.handleWordHover(span));
+              span.addEventListener('mouseleave', () => this.handleWordLeave());
+
+              fragment.appendChild(span);
+            }
+          });
+
+          node.parentNode.replaceChild(fragment, node);
+        } else if (node.nodeType === Node.ELEMENT_NODE) {
+          // Recursively process child elements (like <strong>)
+          this.processNode(node, wordIndex);
         }
       });
     }

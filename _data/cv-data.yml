@@ -1,320 +1,371 @@
-# Structured CV Data for Attention-Themed Website
-# Each section maps to an attention visualization metaphor
+# Structured CV Data
 
-personal:
-  name: "Sharan Ramjee"
-  tagline: "ML Engineer at Stripe | Stanford CS"
-  blurb: |
-    Forward-thinking Machine Learning Engineer passionate about pushing the boundary
-    of possibilities through cutting-edge AI. From NLP and LLMs to Graph Learning
-    and GNNs - building systems that make a difference.
-
-# Industry Experience - "Long-Context Attention"
-# Higher attention_score = more visual prominence
 industry:
   - company: "Stripe"
-    role: "Machine Learning Engineer"
-    team: "Fraud Discovery"
-    dates: "2022 - Present"
-    location: "San Francisco, CA"
-    highlights:
-      - "Led Project Scorpion - first time-series transformer for fraud detection"
-      - "Saves $8M/year in fraud losses"
-      - "Built real-time ML inference pipeline serving millions of requests"
-    attention_score: 1.0
+    location: "New York, NY"
+    logo: "/images/logos/stripe.png"
+    positions:
+      - role: "Senior Machine Learning Engineer"
+        team: "Merchant Intelligence"
+        dates: "May 2025 – Present"
+        highlights:
+          - "Built Stripe's merchant intelligence service to orchestrate a suite of web crawling AI agents at scale, reducing the rate of undetected unsupportable merchants onboarded by 34% annually"
+        tech: "LangGraph, browser-use, Browserbase, Perplexity, FireCrawl"
 
-  - company: "Google"
-    role: "Software Engineering Intern"
-    team: "Cloud AI"
-    dates: "Summer 2019"
-    location: "Seattle, WA"
-    highlights:
-      - "Worked on model distillation for production ML systems"
-      - "Contributed to TensorFlow Extended (TFX) pipeline"
-    attention_score: 0.7
+      - role: "Machine Learning Engineer"
+        team: "LLM Foundation"
+        dates: "Feb 2025 – Apr 2025"
+        highlights:
+          - "Built a framework for LLM-as-a-judge evals for Stripe's Universal Help support chat interfaces, enabling better LLM performance-cost-latency trade-offs and improving CSAT by 8% annually"
+        tech: "LangChain, lite-llm, Temporal, Braintrust"
+
+      - role: "Machine Learning Engineer"
+        team: "Stripe Assistant"
+        dates: "Nov 2024 – Jan 2025"
+        highlights:
+          - "Built a RAG system using a fine-tuned embedding model for semantic understanding of Stripe's dashboard, increasing dashboard CTR by 6% through improved next-action prediction"
+        tech: "ElasticSearch, LangChain, Ragas"
+        link: "https://docs.stripe.com/assistant"
+
+      - role: "Machine Learning Engineer"
+        team: "Foundation Model"
+        dates: "Apr 2024 – Oct 2024"
+        highlights:
+          - "Built the world's first foundation model for payments using RL fine-tuning with GRPO, improving card testing attack detection for large users by 38 percentage points annually"
+        tech: "PyTorch, HuggingFace, TRL, PEFT"
+        link: "https://techcrunch.com/2025/05/07/stripe-unveils-ai-foundation-model-for-payments-reveals-deeper-partnership-with-nvidia/"
+
+      - role: "Machine Learning Engineer"
+        team: "Fraud Discovery"
+        dates: "Jul 2022 – Mar 2024"
+        highlights:
+          - "Led a team of engineers, DS, strategists, and ops to propose and build Scorpion - Stripe's first multivariate time-series transformer for Risk Detection, reducing losses by $16M+ annually"
+        tech: "SQL, PySpark, Airflow, Kada, Flyte, Databricks"
+
+      - role: "Machine Learning Engineer Intern"
+        team: "Fraud Intelligence"
+        dates: "Jun 2021 – Sep 2021"
+        highlights:
+          - "Built FI-Explain - an ML explainability tool powering Stripe's Sonar product for platforms that provides local and global feature importances for Stripe's suite of ML fraud models"
+        tech: "XGBoost, scikit-learn, WandB, SHAP"
+        link: "https://stripe.com/customers/sonar"
 
   - company: "Palo Alto Networks"
-    role: "Software Engineering Intern"
-    team: "Cortex XDR"
-    dates: "Summer 2021"
-    location: "Santa Clara, CA"
-    highlights:
-      - "Built ML-powered threat detection features"
-      - "Project Aerial: CAASM integration"
-    attention_score: 0.75
+    location: "Stanford, CA"
+    logo: "/images/logos/paloalto.png"
+    positions:
+      - role: "Product Manager Intern"
+        team: "Cortex"
+        dates: "Sep 2021 – Nov 2021"
+        highlights:
+          - "Conducted competitive analysis of CAASM products and delivered an MVP for Palo Alto Networks' first Cyber Asset Attack Surface Management offering"
+        tech: "Jira, Confluence, Figma"
+        link: "/files/projects/ee205.pdf"
+
+  - company: "Google"
+    location: "Seattle, WA"
+    logo: "/images/logos/google.png"
+    positions:
+      - role: "Software Engineer Intern"
+        team: "Google Cloud AI"
+        dates: "Sep 2019 – Dec 2019"
+        highlights:
+          - "Built Model Distillation capabilities to extract decision rules by converting black-box ML models into interpretable tree-based models, enabling explainability for models on GCP"
+        tech: "TensorFlow, Keras, scikit-learn, Fig, Blaze"
+        link: "/files/projects/google2019.pdf"
 
   - company: "Qualcomm"
-    role: "Machine Learning Intern"
-    team: "QoS Optimization"
-    dates: "Summer 2018"
     location: "San Diego, CA"
-    highlights:
-      - "Developed ML models for Quality of Service optimization"
-    attention_score: 0.6
+    logo: "/images/logos/qualcomm.png"
+    positions:
+      - role: "Machine Learning Engineer Intern"
+        team: "ML Application Analysis"
+        dates: "May 2019 – Aug 2019"
+        highlights:
+          - "Built an LSTM-based time-series model to estimate Quality-of-Service parameters that trade-off performance and power for multimedia use-cases"
+        tech: "TensorFlow, Keras, scikit-learn"
+        link: "/files/projects/qualcomm2019.pdf"
 
-# Education
-education:
-  - school: "Stanford University"
-    degree: "M.S. Computer Science"
-    concentration: "Artificial Intelligence"
-    dates: "2020 - 2022"
-    location: "Stanford, CA"
-    attention_score: 0.95
+  - company: "Sapient"
+    location: "Bangalore, India"
+    logo: "/images/logos/sapient.png"
+    logo_size: "36px"
+    positions:
+      - role: "Data Science Intern"
+        team: "Data Analytics"
+        dates: "May 2017 – Jun 2017"
+        highlights:
+          - "Performed big data analytics to derive business insights from large-scale datasets"
+        tech: "Pandas, Spark, Hadoop"
 
-  - school: "Purdue University"
-    degree: "B.S. Computer Engineering"
-    dates: "2016 - 2020"
-    location: "West Lafayette, IN"
-    honors: "With Distinction"
-    attention_score: 0.85
-
-# Research - "Bidirectional Attention"
-# Shows connections between research areas
 research:
-  - area: "Natural Language Processing"
-    subareas: ["LLMs", "Sentiment Analysis", "Cyberbullying Detection"]
-    connections: ["Deep Learning", "Transformers"]
+  - institution: "Stanford University"
+    location: "Stanford, CA"
+    logo: "/images/logos/stanford.avif"
+    logo_size: "36px"
+    positions:
+      - role: "Graduate Researcher"
+        lab: "Stanford Vision and Learning Lab"
+        dates: "Sep 2020 – Jan 2021"
+        highlights:
+          - "Intuitive human-robot interaction using distributed RL at the Stanford Vision and Learning Lab"
+          - "Contributed to iGibson, an interactive simulator framework supporting large-scale virtualized realistic scenes for robot learning"
 
-  - area: "Computer Vision"
-    subareas: ["Action Recognition", "Depth Estimation", "Super-Resolution"]
-    connections: ["Deep Learning", "GANs"]
+  - institution: "Purdue University"
+    location: "West Lafayette, IN"
+    logo: "/images/logos/purdue.png"
+    positions:
+      - role: "Research Assistant"
+        lab: "El Gamal Lab"
+        dates: "May 2018 – May 2020"
+        highlights:
+          - "ML for Signal Processing (modulation classification / interference identification)"
+          - "Published 5 papers (3 as first author) in top IEEE journals and conferences and won $750k at the DARPA Spectrum Collaboration Challenge (SC2)"
 
-  - area: "Signal Processing"
-    subareas: ["Wireless Communications", "Modulation Classification", "Interference Detection"]
-    connections: ["Deep Learning", "Neural Networks"]
-
-  - area: "Graph Learning"
-    subareas: ["GNNs", "Graph Embeddings", "Network Analysis"]
-    connections: ["Machine Learning", "Fraud Detection"]
-
-# Publications - "Sparse Attention"
-# Only key papers highlighted strongly
 publications:
   - title: "Ensemble Wrapper Subsampling for Deep Modulation Classification"
     venue: "IEEE TCCN"
     year: 2021
-    authors: "Sharan Ramjee, Shengtai Ju, Diyu Yang, Xiaoyu Liu, Aly El Gamal, Yonina C. Eldar"
+    citation: '<strong>Sharan Ramjee</strong>, Shengtai Ju, Diyu Yang, Xiaoyu Liu, Aly El Gamal, Yonina C. Eldar. "Ensemble Wrapper Subsampling for Deep Modulation Classification". IEEE Transactions on Cognitive Communications and Networking (TCCN), Aug. 2021'
     link: "/publications/tccn2021"
-    first_author: true
-    attention_score: 0.95
+
+  - title: "Efficient Wrapper Feature Selection using Autoencoder and Model Based Elimination"
+    venue: "IEEE LOCS"
+    year: 2020
+    citation: '<strong>Sharan Ramjee</strong>, Aly El Gamal. "Efficient Wrapper Feature Selection using Autoencoder and Model Based Elimination". IEEE Letters of the Computer Society (LOCS), May. 2020'
+    link: "/publications/locs2020"
 
   - title: "Efficient Training of Deep Classifiers for Wireless Source Identification"
     venue: "IEEE WCL"
     year: 2020
-    authors: "Xingchen Wang, Shengtai Ju, Xiwen Zhang, Sharan Ramjee, Aly El Gamal"
+    citation: 'Xingchen Wang, Shengtai Ju, Xiwen Zhang, <strong>Sharan Ramjee</strong>, Aly El Gamal. "Efficient Training of Deep Classifiers for Wireless Source Identification using Test SNR Estimates". IEEE Wireless Communication Letters (WCL), Apr. 2020'
     link: "/publications/wcl2020"
-    first_author: false
-    attention_score: 0.7
 
   - title: "Deep Learning for Interference Identification: Band, Training SNR, and Sample Selection"
     venue: "IEEE SPAWC"
     year: 2019
-    authors: "Xiwen Zhang, Tolunay Zeyfi, Shengtai Ju, Sharan Ramjee, Aly El Gamal, Yonina C. Eldar"
+    citation: 'Xiwen Zhang, Tolunay Zeyfi, Shengtai Ju, <strong>Sharan Ramjee</strong>, Aly El Gamal, Yonina C. Eldar. "Deep Learning for Interference Identification: Band, Training SNR, and Sample Selection". IEEE Signal Processing Advances in Wireless Communications (SPAWC), Jul. 2019'
     link: "/publications/spawc2019"
-    first_author: false
-    attention_score: 0.75
 
   - title: "Fast Deep Learning for Automatic Modulation Classification"
     venue: "IEEE MLCETI"
     year: 2019
-    authors: "Sharan Ramjee, Shengtai Ju, Diyu Yang, Xiaoyu Liu, Aly El Gamal, Yonina C. Eldar"
+    citation: '<strong>Sharan Ramjee</strong>, Shengtai Ju, Diyu Yang, Xiaoyu Liu, Aly El Gamal, Yonina C. Eldar. "Fast Deep Learning for Automatic Modulation Classification". IEEE Machine Learning for Communications Emerging Technologies Initiatives (MLCETI), Jan. 2019'
     link: "/publications/mlceti2019"
-    first_author: true
-    attention_score: 0.85
 
-# Projects - "Query-Key-Value Flow"
-# Organized by skill -> tech -> project output
 projects:
-  - skill: "NLP"
-    tech: "Transformers"
-    projects:
-      - name: "Cyberbullying Detection with Attention-Weighted IG"
-        link: "/projects/cs329t"
-        date: "2022"
-      - name: "Aspect-Target Sentiment Classification"
-        link: "/projects/cs224n"
-        date: "2021"
+  - title: "Attention-Weighted Integrated Gradients for Target-Aware Cyberbullying Detection"
+    type: "Stanford University CS 329T: Trustworthy Machine Learning"
+    date: "2022"
+    link: "/projects/cs329t"
 
-  - skill: "Computer Vision"
-    tech: "CNNs & GANs"
-    projects:
-      - name: "Single-Image Stereo Depth Estimation"
-        link: "/projects/cs231a"
-        date: "2021"
-      - name: "Skeleton-based Action Recognition"
-        link: "/projects/cs231n"
-        date: "2021"
-      - name: "Pothole Detection with Super-Resolution"
-        link: "/projects/cs230"
-        date: "2020"
+  - title: "A Machine Learning Driven Analysis of Private Equity Funding in Seed-Stage Healthcare Startups"
+    type: "Stanford University CS GENE225: Healthcare Venture Capital"
+    date: "2022"
+    link: "/projects/gene225"
 
-  - skill: "Graph Learning"
-    tech: "GNNs"
-    projects:
-      - name: "Gradient Boosting with Wasserstein Embeddings"
-        link: "/projects/cs224w"
-        date: "2021"
+  - title: "AutoChef: Computer Vision for Automated Ingredient-to-Recipe Matching"
+    type: "Stanford University CS 329S: Machine Learning Systems Design"
+    date: "2022"
+    link: "/projects/cs329s"
 
-  - skill: "Meta Learning"
-    tech: "Few-Shot"
-    projects:
-      - name: "FLITE: Memory-Efficient Meta Learning"
-        link: "/projects/cs330"
-        date: "2021"
+  - title: "FLITE: Focusing LITE for Memory-Efficient Meta Learning"
+    type: "Stanford University CS 330: Deep Multi-Task and Meta Learning"
+    date: "2021"
+    link: "/projects/cs330"
 
-  - skill: "ML Systems"
-    tech: "Production ML"
-    projects:
-      - name: "AutoChef: Ingredient-to-Recipe CV"
-        link: "/projects/cs329s"
-        date: "2022"
+  - title: "AdaLA: Adapting Gradient Estimation by Looking Ahead"
+    type: "Stanford University CS 361: Engineering Design Optimization"
+    date: "2021"
+    link: "/projects/cs361"
 
-# Teaching - "Knowledge Distillation"
-# Teacher -> Student knowledge transfer
+  - title: "Project Aerial: CAASM for Palo Alto Networks"
+    type: "Stanford University EE 205: Product Management"
+    date: "2021"
+    link: "/projects/ee205"
+
+  - title: "Context-Aware Skeleton-based Action Recognition via Spatial and Temporal Transformer Networks"
+    type: "Stanford University CS 231N: Convolutional Neural Networks for Visual Recognition"
+    date: "2021"
+    link: "/projects/cs231n"
+
+  - title: "Unsupervised Neural Network Models of the Ventral Visual Stream"
+    type: "Stanford University CS 431: High-level Vision"
+    date: "2021"
+    link: "/projects/cs431"
+
+  - title: "Single-Image Stereo Depth Estimation using GANs"
+    type: "Stanford University CS 231A: Computer Vision"
+    date: "2021"
+    link: "/projects/cs231a"
+
+  - title: "Histogram-Based Gradient Boosting Trees for Efficient Graph Learning with Wasserstein Embeddings"
+    type: "Stanford University CS 224W: Machine Learning with Graphs"
+    date: "2021"
+    link: "/projects/cs224w"
+
+  - title: "Aspect-Target Sentiment Classification for Cyberbullying Detection"
+    type: "Stanford University CS 224N: Natural Language Processing with Deep Learning"
+    date: "2021"
+    link: "/projects/cs224n"
+
+  - title: "Super-Resolution of Low-Quality Images for Realtime Pothole Detection"
+    type: "Stanford University CS 230: Deep Learning"
+    date: "2020"
+    link: "/projects/cs230"
+
+  - title: "Image Data Augmentation for Plant Leaf Disease Classification Using Neural Style Transfer"
+    type: "Stanford University CS 229: Machine Learning"
+    date: "2020"
+    link: "/projects/cs229"
+
 teaching:
-  - role: "Head Teaching Assistant"
-    course: "CS 230: Deep Learning"
-    context: "Stanford University"
-    students: 400
-    knowledge_transfer: 0.95
-    dates: "2021-2022"
+  - institution: "Stanford University"
+    location: "Stanford, CA"
+    logo: "/images/logos/stanford.avif"
+    logo_size: "36px"
+    courses:
+      - course: "CS 221: Artificial Intelligence"
+        role: "Course Assistant"
+        dates: "Spring 2022"
+        link: "https://stanford-cs221.github.io/"
 
-  - role: "Course Assistant"
-    course: "CS 221: AI Principles & Techniques"
-    context: "Stanford University"
-    students: 300
-    knowledge_transfer: 0.85
-    dates: "2021"
+      - course: "CS 142: Web Applications"
+        role: "Course Assistant"
+        dates: "Winter 2022"
+        link: "https://web.stanford.edu/class/cs142/"
 
-  - role: "Course Assistant"
-    course: "CS 142: Web Applications"
-    context: "Stanford University"
-    students: 150
-    knowledge_transfer: 0.8
-    dates: "2020"
+      - course: "CS 230: Deep Learning"
+        role: "Head Course Assistant"
+        dates: "Fall 2021"
+        link: "https://cs230.stanford.edu/"
 
-# Leadership - "Graph Attention"
-# Node connections showing influence without direct authority
-leadership:
-  - org: "Purdue IEEE Computer Society"
-    role: "President"
-    dates: "2018 - 2019"
-    impact_score: 0.9
-    description: "Led 50+ member org, organized workshops and hackathons"
-    connections:
-      - to: "IEEE"
-        weight: 0.8
-      - to: "CSOCIETY"
-        weight: 0.9
+      - course: "CS 107: Computer Organization & Systems"
+        role: "Course Assistant"
+        dates: "Spring 2021"
+        link: "https://web.stanford.edu/class/cs107/"
 
-  - org: "TreeHacks"
-    role: "Organizer"
-    dates: "2021 - 2022"
-    impact_score: 0.85
-    description: "Stanford's largest hackathon, 1500+ participants"
-
-  - org: "Autonomous Motorsports Purdue"
-    role: "Software Lead"
-    dates: "2017 - 2019"
-    impact_score: 0.8
-    description: "Led team developing autonomous racing algorithms"
-    connections:
-      - to: "SAE"
-        weight: 0.6
-
-  - org: "Undergraduate Research Student Program"
-    role: "Research Assistant"
-    dates: "2017 - 2020"
-    impact_score: 0.75
-    description: "Deep learning for wireless communications"
-
-# Talks - "Decoder Outputs"
-# Sequential generation of talks over time
-talks:
-  - title: "Model Distillation"
-    venue: "Google Cloud AI"
-    location: "Seattle, WA"
-    date: "2019-12-04"
-    type: "Industry"
-    link: "/talks/google2019"
-
-  - title: "QoS Optimization with ML"
-    venue: "Qualcomm"
-    location: "San Diego, CA"
-    date: "2019-08-15"
-    type: "Industry"
-    link: "/talks/qualcomm2019"
-
-  - title: "Deep Learning for Interference Identification"
-    venue: "IEEE SPAWC"
-    location: "Cannes, France"
-    date: "2019-07-02"
-    type: "Conference"
-    link: "/talks/spawc2019"
-
-  - title: "Deep Learning for Style Transfer"
-    venue: "Purdue IEEE CSOCIETY"
+  - institution: "Purdue University"
     location: "West Lafayette, IN"
-    date: "2018-11-15"
-    type: "Workshop"
-    link: "/talks/csociety2018"
+    logo: "/images/logos/purdue.png"
+    courses:
+      - course: "ECE 362: Microprocessor Systems and Interfacing"
+        role: "Teaching Assistant"
+        dates: "Spring 2019"
+        link: "https://engineering.purdue.edu/ece362/"
 
-# Skills - "Multi-Head Attention"
-# Each head focuses on different skill domain
-skills:
-  heads:
-    - name: "Languages"
-      color: "#ff69b4"
-      items:
-        - skill: "Python"
-          proficiency: 0.95
-        - skill: "Java"
-          proficiency: 0.85
-        - skill: "C++"
-          proficiency: 0.75
-        - skill: "JavaScript"
-          proficiency: 0.7
-        - skill: "SQL"
-          proficiency: 0.8
+      - course: "ECE 337: ASIC Design Laboratory"
+        role: "Teaching Assistant"
+        dates: "Spring 2019"
+        link: "https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=389.0&show=true&type=undergrad"
 
-    - name: "ML Frameworks"
-      color: "#ffa500"
-      items:
-        - skill: "PyTorch"
-          proficiency: 0.95
-        - skill: "TensorFlow"
-          proficiency: 0.85
-        - skill: "Hugging Face"
-          proficiency: 0.9
-        - skill: "JAX"
-          proficiency: 0.7
-        - skill: "scikit-learn"
-          proficiency: 0.9
+      - course: "ECE 264: Advanced C Programming"
+        role: "Teaching Assistant"
+        dates: "Spring 2019"
+        link: "https://engineering.purdue.edu/ece264/"
 
-    - name: "ML Domains"
-      color: "#7fff00"
-      items:
-        - skill: "NLP / LLMs"
-          proficiency: 0.9
-        - skill: "Computer Vision"
-          proficiency: 0.85
-        - skill: "Graph Neural Networks"
-          proficiency: 0.8
-        - skill: "Reinforcement Learning"
-          proficiency: 0.7
-        - skill: "Time Series"
-          proficiency: 0.85
+      - course: "ECE 207: Electronic Measurement Techniques"
+        role: "Teaching Assistant"
+        dates: "Fall 2018"
+        link: "https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/UGO/UGO/CourseInfo/courseInfo?courseid=29&show=true&type=undergrad"
 
-    - name: "Infrastructure"
-      color: "#e0b0ff"
-      items:
-        - skill: "AWS"
-          proficiency: 0.8
-        - skill: "GCP"
-          proficiency: 0.75
-        - skill: "Docker"
-          proficiency: 0.8
-        - skill: "Kubernetes"
-          proficiency: 0.7
-        - skill: "Spark"
-          proficiency: 0.75
+      - course: "CS 159: Programming Applications For Engineers"
+        role: "Teaching Assistant"
+        dates: "Spring 2018"
+        link: "https://catalog.purdue.edu/preview_course_nopop.php?catoid=8&coid=77764"
+
+leadership:
+  - org: "Stanford TreeHacks"
+    location: "Stanford, CA"
+    logo: "/images/logos/treehacks.png"
+    role: "Tech Fellow"
+    role_link: "https://www.treehacks.com/"
+    dates: "Jun 2021 – Jun 2022"
+    highlights:
+      - "Added documentation to and built the TreeHacks websites using JSDoc and JavaScript, improving the Stanford TreeHacks Hackathon experience as a part of the tech team"
+
+  - org: "Purdue IEEE Computer Society (CSociety)"
+    location: "West Lafayette, IN"
+    logo: "/images/logos/csociety.png"
+    role: "President"
+    role_link: "https://purdueieee.org/csociety/"
+    dates: "Aug 2017 – Aug 2019"
+    highlights:
+      - "Led several teams in the completion of projects for the Purdue Spark Challenge, serving as the product manager for the Neural Style Transfer using Hardware Convolution project (Spring 2019) and as the head of the data analysis team for the QUEVIHN: Biomedical Robot project (Fall 2018)"
+
+  - org: "Autonomous Motorsports Purdue (AMP)"
+    location: "West Lafayette, IN"
+    logo: "/images/logos/amp.png"
+    role: "Software Team Lead"
+    role_link: "https://engineering.purdue.edu/AMP/"
+    dates: "Aug 2017 – May 2019"
+    highlights:
+      - 'Led the software team for the development of SLAM algorithms in preparation for the <a href="https://evgrandprix.org/">autonomous racing competition</a> held every May, developing computer vision software using <a href="https://pjreddie.com/darknet/yolov2/">YOLOv2</a> for the Velodyne LiDAR and creating onboarding documents to get new recruits up to speed with the Robot Operating System (ROS) framework'
+
+  - org: "Undergraduate Research Society of Purdue (UGRSP)"
+    location: "West Lafayette, IN"
+    logo: "/images/logos/ugrsp.png"
+    role: "Founding Ambassador"
+    role_link: "https://www.purdue.edu/undergrad-research/students/society.php"
+    dates: "Aug 2017 – May 2020"
+    highlights:
+      - "Served as the founding ambassador for the College of Engineering to help guide students with research, teaching students how to present their research, conduct literature reviews, and write journal/conference papers while engaging in outreach to recruit a diverse group of students passionate about research"
+
+awards:
+  - title: "AI Fellowship"
+    org: "Bain Capital Ventures"
+    date: "Jun 2024"
+
+  - title: "Best Product Opportunity Assessment (POA) Presentation"
+    org: "Stanford EE 205: Product Management"
+    date: "Nov 2021"
+
+  - title: "Tech Fellowship"
+    org: "Stanford TreeHacks"
+    date: "Jun 2021"
+
+  - title: "Honorable Mention"
+    org: "Stanford AIMI-HIAE COVID-19 Researchathon"
+    date: "Jun 2020"
+
+  - title: "Graduation with Highest Distinction"
+    org: "Purdue University"
+    date: "May 2020"
+
+  - title: "Ideas and Innovation Tournament (I2TC) Qualifier"
+    org: "Purdue University"
+    date: "Feb 2020"
+
+  - title: "Eta Kappa Nu (Beta Chapter) Outstanding Junior Scholarship"
+    org: "Purdue University"
+    date: "2019 – 2020"
+
+  - title: "Eli Shay Scholarship (3 times)"
+    org: "Purdue University"
+    date: "2017 – 2020"
+
+  - title: "Dean's List (8 times)"
+    org: "Purdue University"
+    date: "2016 – 2020"
+
+  - title: "Wolfram Alpha Award"
+    org: "MadHacks (University of Wisconsin-Madison)"
+    date: "Nov 2018"
+
+  - title: "Engineering Design Excellence Award"
+    org: "Purdue University"
+    date: "Dec 2016"
+
+  - title: "12th Board Exam Scholarship"
+    org: "DRDO"
+    date: "May 2016"
+
+  - title: "10th Board Exam Scholarship"
+    org: "DRDO"
+    date: "May 2014"
+
+patents:
+  - title: "Systems and methods for monitoring network traffic to identify cyberattacks"
+    year: 2025
+    citation: '<strong>Sharan Ramjee</strong>. "Systems and methods for monitoring network traffic to identify cyberattacks". US Patent Application US20250373638A1, 2025'
+    link: "https://patents.google.com/patent/US20250373638A1"

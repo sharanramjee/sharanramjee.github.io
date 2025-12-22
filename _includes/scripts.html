@@ -1,13 +1,17 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
-<!-- D3.js for Attention Visualizations -->
+<!-- Code Background (all pages) -->
+<script src="{{ base_path }}/assets/js/code-background.js"></script>
+
+{% if page.layout == 'attention-home' %}
+<!-- D3.js for Attention Visualizations (homepage only) -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<!-- Attention Visualization Scripts -->
+<!-- Attention Visualization Scripts (homepage only) -->
 <script src="{{ base_path }}/assets/js/neural-background.js"></script>
-<script src="{{ base_path }}/assets/js/code-background.js"></script>
 <script src="{{ base_path }}/assets/js/nav-highlight.js"></script>
 <script src="{{ base_path }}/assets/js/section-attention.js"></script>
+{% endif %}
 
 <!-- AOS (Animate On Scroll) -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -19,6 +23,3 @@
     offset: 50
   });
 </script>
-
-{% include analytics.html %}
-{% include /comments-providers/scripts.html %}

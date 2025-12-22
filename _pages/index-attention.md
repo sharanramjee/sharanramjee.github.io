@@ -2,7 +2,6 @@
 layout: attention-home
 permalink: /
 title: "Sharan Ramjee"
-excerpt: "ML Engineer | Stanford CS | Pushing the boundaries of AI"
 ---
 
 I'm a Machine Learning Engineer passionate about bridging the gap between AI research and production systems. I hold a Master's degree in Computer Science (AI concentration) from Stanford University and a Bachelor's degree in Computer Engineering from Purdue University.
