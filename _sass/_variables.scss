@@ -53,20 +53,20 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-/* Dark Theme Colors */
-$body-color                 : #000000;
-$background-color           : #000000;
-$code-background-color      : #111111;
-$code-background-color-dark : #1a1a1a;
-$text-color                 : #ffffff;
-$muted-text-color           : #a0a0a0;
-$border-color               : #222222;
+/* Vintage/Parchment Theme Colors */
+$body-color                 : #f4efe4;
+$background-color           : #f4efe4;
+$code-background-color      : #ebe5d8;
+$code-background-color-dark : #e0d9ca;
+$text-color                 : #3a2a1d;
+$muted-text-color           : #6b5344;
+$border-color               : rgba(74, 55, 40, 0.2);
 
-$primary-color              : #ff69b4;  /* Pink - matches neural network */
-$success-color              : #7fff00;  /* Chartreuse green */
-$warning-color              : #ffa500;  /* Orange */
-$danger-color               : #ff1493;  /* Deep pink */
-$info-color                 : #e0b0ff;  /* Lavender */
+$primary-color              : #4a3728;  /* Vintage brown */
+$success-color              : #5d7a4a;  /* Muted green */
+$warning-color              : #b8860b;  /* Dark goldenrod */
+$danger-color               : #8b4513;  /* Saddle brown */
+$info-color                 : #6b5344;  /* Brown */
 
 /* brands */
 $behance-color              : #1769FF;
@@ -92,11 +92,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : #ff69b4;  /* Pink */
-$link-color-hover           : #ffa500;  /* Orange on hover */
-$link-color-visited         : #e0b0ff;  /* Lavender */
-$masthead-link-color        : #ffffff;  /* White nav links */
-$masthead-link-color-hover  : #ff69b4;  /* Pink on hover */
+$link-color                 : #4a3728;  /* Vintage brown */
+$link-color-hover           : #8b7355;  /* Light brown on hover */
+$link-color-visited         : #6b5344;  /* Medium brown */
+$masthead-link-color        : #3a2a1d;  /* Dark brown nav links */
+$masthead-link-color-hover  : #8b7355;  /* Light brown on hover */
 
 
 /*

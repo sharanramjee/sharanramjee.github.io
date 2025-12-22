@@ -20,11 +20,11 @@ layout: compress
           <a href="#industry" class="attention-nav__link">Industry</a>
           <a href="#research" class="attention-nav__link">Research</a>
           <a href="#publications" class="attention-nav__link">Publications</a>
+          <a href="#patents" class="attention-nav__link">Patents</a>
           <a href="#projects" class="attention-nav__link">Projects</a>
           <a href="#teaching" class="attention-nav__link">Teaching</a>
-          <a href="#leadership" class="attention-nav__link">Leadership</a>
-          <a href="#talks" class="attention-nav__link">Talks</a>
-          <a href="#skills" class="attention-nav__link">Skills</a>
+          <a href="#leadership" class="attention-nav__link">Organizations</a>
+          <a href="#awards" class="attention-nav__link">Awards</a>
         </div>
       </div>
     </nav>
@@ -67,20 +67,38 @@ layout: compress
           <h2 class="attention-section__title">Industry Experience</h2>
         </div>
         <div class="attention-section__content">
-          {% for item in site.data.cv-data.industry %}
-            <div class="experience-item">
-              <div class="experience-item__header">
-                <h3 class="experience-item__company">{{ item.company }}</h3>
-                <span class="experience-item__dates">{{ item.dates }}</span>
+          {% for company in site.data.cv-data.industry %}
+            <div class="experience-company">
+              <div class="experience-company__header">
+                {% if company.logo %}
+                  <img src="{{ company.logo }}" alt="{{ company.company }} logo" class="experience-company__logo"{% if company.logo_size %} style="height: {{ company.logo_size }};"{% endif %}>
+                {% endif %}
+                <h3 class="experience-company__name">{{ company.company }}</h3>
+                <span class="experience-company__location">{{ company.location }}</span>
               </div>
-              <p class="experience-item__role">{{ item.role }}{% if item.team %} - {{ item.team }}{% endif %}</p>
-              {% if item.highlights %}
-                <ul class="experience-item__highlights">
-                  {% for highlight in item.highlights %}
-                    <li>{{ highlight }}</li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
+              <div class="experience-company__positions">
+                {% for position in company.positions %}
+                  <div class="experience-position">
+                    <div class="experience-position__header">
+                      <span class="experience-position__role">{{ position.role }}, {{ position.team }}</span>
+                      <span class="experience-position__dates">{{ position.dates }}</span>
+                    </div>
+                    {% if position.highlights %}
+                      <ul class="experience-position__highlights">
+                        {% for highlight in position.highlights %}
+                          <li>{{ highlight }}</li>
+                        {% endfor %}
+                      </ul>
+                    {% endif %}
+                    {% if position.tech %}
+                      <p class="experience-position__tech"><span class="experience-position__tech-label">Tech stack:</span> <span class="experience-position__tech-items">{{ position.tech }}</span></p>
+                    {% endif %}
+                    {% if position.link %}
+                      <p class="experience-position__tech"><a href="{{ position.link }}" class="experience-position__tech-link" target="_blank" rel="noopener">View project</a></p>
+                    {% endif %}
+                  </div>
+                {% endfor %}
+              </div>
             </div>
           {% endfor %}
         </div>
@@ -89,19 +107,35 @@ layout: compress
       <!-- Research Section -->
       <section id="research" class="attention-section">
         <div class="attention-section__header">
-          <h2 class="attention-section__title">Research</h2>
+          <h2 class="attention-section__title">Research Experience</h2>
         </div>
         <div class="attention-section__content">
-          {% for item in site.data.cv-data.research %}
-            <div class="research-item">
-              <h3 class="research-item__area">{{ item.area }}</h3>
-              {% if item.subareas %}
-                <div class="research-item__subareas">
-                  {% for subarea in item.subareas %}
-                    <span class="tag">{{ subarea }}</span>
-                  {% endfor %}
-                </div>
-              {% endif %}
+          {% for institution in site.data.cv-data.research %}
+            <div class="experience-company">
+              <div class="experience-company__header">
+                {% if institution.logo %}
+                  <img src="{{ institution.logo }}" alt="{{ institution.institution }} logo" class="experience-company__logo"{% if institution.logo_size %} style="height: {{ institution.logo_size }};"{% endif %}>
+                {% endif %}
+                <h3 class="experience-company__name">{{ institution.institution }}</h3>
+                <span class="experience-company__location">{{ institution.location }}</span>
+              </div>
+              <div class="experience-company__positions">
+                {% for position in institution.positions %}
+                  <div class="experience-position">
+                    <div class="experience-position__header">
+                      <span class="experience-position__role">{{ position.role }}, {{ position.lab }}</span>
+                      <span class="experience-position__dates">{{ position.dates }}</span>
+                    </div>
+                    {% if position.highlights %}
+                      <ul class="experience-position__highlights">
+                        {% for highlight in position.highlights %}
+                          <li>{{ highlight }}</li>
+                        {% endfor %}
+                      </ul>
+                    {% endif %}
+                  </div>
+                {% endfor %}
+              </div>
             </div>
           {% endfor %}
         </div>
@@ -110,18 +144,58 @@ layout: compress
       <!-- Publications Section -->
       <section id="publications" class="attention-section">
         <div class="attention-section__header">
-          <h2 class="attention-section__title">Publications</h2>
+          <h2 class="attention-section__title">Academic Publications</h2>
         </div>
         <div class="attention-section__content">
-          {% for item in site.data.cv-data.publications %}
-            <div class="publication-item">
-              <h3 class="publication-item__title">{{ item.title }}</h3>
-              <p class="publication-item__venue">{{ item.venue }} ({{ item.year }})</p>
-              {% if item.link %}
-                <a href="{{ item.link }}" class="publication-item__link" target="_blank">View Paper</a>
-              {% endif %}
+          <div class="experience-company">
+            <div class="experience-company__positions">
+              {% for item in site.data.cv-data.publications %}
+                <div class="experience-position">
+                  <div class="experience-position__header">
+                    <span class="experience-position__role publication-title">{{ item.title }}</span>
+                    <span class="experience-position__dates publication-venue">{{ item.venue }}, {{ item.year }}</span>
+                  </div>
+                  {% if item.citation %}
+                    <ul class="experience-position__highlights publication-citation">
+                      <li>{{ item.citation | raw }}</li>
+                    </ul>
+                  {% endif %}
+                  {% if item.link %}
+                    <p class="experience-position__tech"><a href="{{ base_path }}{{ item.link }}" class="experience-position__tech-link">View paper</a></p>
+                  {% endif %}
+                </div>
+              {% endfor %}
             </div>
-          {% endfor %}
+          </div>
+        </div>
+      </section>
+
+      <!-- Patents Section -->
+      <section id="patents" class="attention-section">
+        <div class="attention-section__header">
+          <h2 class="attention-section__title">Patents</h2>
+        </div>
+        <div class="attention-section__content">
+          <div class="experience-company">
+            <div class="experience-company__positions">
+              {% for item in site.data.cv-data.patents %}
+                <div class="experience-position">
+                  <div class="experience-position__header">
+                    <span class="experience-position__role patent-title">{{ item.title }}</span>
+                    <span class="experience-position__dates">{{ item.year }}</span>
+                  </div>
+                  {% if item.citation %}
+                    <ul class="experience-position__highlights">
+                      <li>{{ item.citation | raw }}</li>
+                    </ul>
+                  {% endif %}
+                  {% if item.link %}
+                    <p class="experience-position__tech"><a href="{{ item.link }}" class="experience-position__tech-link" target="_blank" rel="noopener">View patent</a></p>
+                  {% endif %}
+                </div>
+              {% endfor %}
+            </div>
+          </div>
         </div>
       </section>
 
@@ -131,17 +205,16 @@ layout: compress
           <h2 class="attention-section__title">Projects</h2>
         </div>
         <div class="attention-section__content">
-          {% for group in site.data.cv-data.projects %}
-            <div class="project-group">
-              <div class="project-group__query">{{ group.skill }}</div>
-              <div class="project-group__key">{{ group.tech }}</div>
-              <div class="project-group__values">
-                {% for project in group.projects %}
-                  <div class="project-item">
-                    <a href="{{ project.link }}">{{ project.name }}</a>
-                  </div>
-                {% endfor %}
+          {% for item in site.data.cv-data.projects %}
+            <div class="project-item">
+              <div class="project-item__header">
+                <h3 class="project-item__title">{{ item.title }}</h3>
+                <span class="project-item__date">{{ item.date }}</span>
               </div>
+              <p class="project-item__type">{{ item.type }}</p>
+              {% if item.link %}
+                <p class="experience-position__tech"><a href="{{ item.link }}" class="experience-position__tech-link">View project</a></p>
+              {% endif %}
             </div>
           {% endfor %}
         </div>
@@ -150,67 +223,90 @@ layout: compress
       <!-- Teaching Section -->
       <section id="teaching" class="attention-section">
         <div class="attention-section__header">
-          <h2 class="attention-section__title">Teaching</h2>
+          <h2 class="attention-section__title">Teaching Assistantships</h2>
         </div>
         <div class="attention-section__content">
-          {% for item in site.data.cv-data.teaching %}
-            <div class="teaching-item">
-              <h3 class="teaching-item__role">{{ item.role }}</h3>
-              <p class="teaching-item__context">{{ item.context }}</p>
-            </div>
-          {% endfor %}
-        </div>
-      </section>
-
-      <!-- Leadership Section -->
-      <section id="leadership" class="attention-section">
-        <div class="attention-section__header">
-          <h2 class="attention-section__title">Leadership</h2>
-        </div>
-        <div class="attention-section__content">
-          {% for item in site.data.cv-data.leadership %}
-            <div class="leadership-item">
-              <h3 class="leadership-item__org">{{ item.org }}</h3>
-              <p class="leadership-item__role">{{ item.role }}</p>
-              <span class="leadership-item__dates">{{ item.dates }}</span>
-            </div>
-          {% endfor %}
-        </div>
-      </section>
-
-      <!-- Talks Section -->
-      <section id="talks" class="attention-section">
-        <div class="attention-section__header">
-          <h2 class="attention-section__title">Talks</h2>
-        </div>
-        <div class="attention-section__content">
-          {% for item in site.data.cv-data.talks %}
-            <div class="talk-item">
-              <h3 class="talk-item__title">{{ item.title }}</h3>
-              <p class="talk-item__venue">{{ item.venue }}</p>
-              <span class="talk-item__date">{{ item.date }}</span>
-            </div>
-          {% endfor %}
-        </div>
-      </section>
-
-      <!-- Skills Section -->
-      <section id="skills" class="attention-section">
-        <div class="attention-section__header">
-          <h2 class="attention-section__title">Skills</h2>
-        </div>
-        <div class="attention-section__content">
-          {% for head in site.data.cv-data.skills.heads %}
-            <div class="skill-head">
-              <h3 class="skill-head__name">{{ head.name }}</h3>
-              <div class="skill-head__items">
-                {% for item in head.items %}
-                  <div class="skill-item">
-                    <span class="skill-item__name">{{ item.skill }}</span>
-                    <div class="skill-item__bar" style="width: {{ item.proficiency | times: 100 }}%"></div>
+          {% for institution in site.data.cv-data.teaching %}
+            <div class="experience-company">
+              <div class="experience-company__header">
+                {% if institution.logo %}
+                  <img src="{{ institution.logo }}" alt="{{ institution.institution }} logo" class="experience-company__logo"{% if institution.logo_size %} style="height: {{ institution.logo_size }};"{% endif %}>
+                {% endif %}
+                <h3 class="experience-company__name">{{ institution.institution }}</h3>
+                <span class="experience-company__location">{{ institution.location }}</span>
+              </div>
+              <div class="experience-company__positions">
+                {% for course in institution.courses %}
+                  <div class="experience-position">
+                    <div class="experience-position__header">
+                      <span class="experience-position__role">{{ course.course }}</span>
+                      <span class="experience-position__dates">{{ course.dates }}</span>
+                    </div>
+                    <ul class="experience-position__highlights">
+                      <li>{{ course.role }}</li>
+                    </ul>
+                    {% if course.link %}
+                      <p class="experience-position__tech"><a href="{{ course.link }}" class="experience-position__tech-link" target="_blank" rel="noopener">View course</a></p>
+                    {% endif %}
                   </div>
                 {% endfor %}
               </div>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- Student Organizations Section -->
+      <section id="leadership" class="attention-section">
+        <div class="attention-section__header">
+          <h2 class="attention-section__title">Student Organizations</h2>
+        </div>
+        <div class="attention-section__content">
+          {% for item in site.data.cv-data.leadership %}
+            <div class="experience-company">
+              <div class="experience-company__header">
+                {% if item.logo %}
+                  <img src="{{ item.logo }}" alt="{{ item.org }} logo" class="experience-company__logo"{% if item.logo_size %} style="height: {{ item.logo_size }};"{% endif %}>
+                {% endif %}
+                <h3 class="experience-company__name">{{ item.org }}</h3>
+                <span class="experience-company__location">{{ item.location }}</span>
+              </div>
+              <div class="experience-company__positions">
+                <div class="experience-position">
+                  <div class="experience-position__header">
+                    <span class="experience-position__role">{{ item.role }}</span>
+                    <span class="experience-position__dates">{{ item.dates }}</span>
+                  </div>
+                  {% if item.highlights %}
+                    <ul class="experience-position__highlights">
+                      {% for highlight in item.highlights %}
+                        <li>{{ highlight }}</li>
+                      {% endfor %}
+                    </ul>
+                  {% endif %}
+                  {% if item.role_link %}
+                    <p class="experience-position__tech"><a href="{{ item.role_link }}" class="experience-position__tech-link" target="_blank" rel="noopener">View organization</a></p>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </section>
+
+      <!-- Honors & Awards Section -->
+      <section id="awards" class="attention-section">
+        <div class="attention-section__header">
+          <h2 class="attention-section__title">Honors & Awards</h2>
+        </div>
+        <div class="attention-section__content">
+          {% for item in site.data.cv-data.awards %}
+            <div class="award-item">
+              <div class="award-item__header">
+                <h3 class="award-item__title">{{ item.title }}</h3>
+                <span class="award-item__date">{{ item.date }}</span>
+              </div>
+              <p class="award-item__org">{{ item.org }}</p>
             </div>
           {% endfor %}
         </div>
