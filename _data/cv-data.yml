@@ -7,33 +7,25 @@ industry:
     positions:
       - role: "Senior Machine Learning Engineer"
         team: "Merchant Intelligence"
-        dates: "May 2025 – Present"
+        dates: "Apr 2025 – Present"
         highlights:
           - "Built Stripe's merchant intelligence service to orchestrate a suite of web crawling AI agents at scale, reducing the rate of undetected unsupportable merchants onboarded by 34% annually"
         tech: "LangGraph, browser-use, Browserbase, Perplexity, FireCrawl"
 
       - role: "Machine Learning Engineer"
         team: "LLM Foundation"
-        dates: "Feb 2025 – Apr 2025"
+        dates: "Oct 2024 – Mar 2025"
         highlights:
-          - "Built a framework for LLM-as-a-judge evals for Stripe's Universal Help support chat interfaces, enabling better LLM performance-cost-latency trade-offs and improving CSAT by 8% annually"
-        tech: "LangChain, lite-llm, Temporal, Braintrust"
+          - "Built core integrations for Stripe's llm-proxy service, enabling company-wide access to the latest LLMs across Azure, AWS, GCP, OpenAI, and other LLM inference providers"
+        tech: "OpenAI, lite-llm, Temporal, Braintrust"
 
       - role: "Machine Learning Engineer"
         team: "Stripe Assistant"
-        dates: "Nov 2024 – Jan 2025"
+        dates: "Apr 2024 – Sep 2024"
         highlights:
-          - "Built a RAG system using a fine-tuned embedding model for semantic understanding of Stripe's dashboard, increasing dashboard CTR by 6% through improved next-action prediction"
-        tech: "ElasticSearch, LangChain, Ragas"
+          - "Built a framework for LLM-as-a-judge evals for Stripe's Universal Help support chat interfaces, enabling better LLM performance-cost-latency trade-offs and improving CSAT by 8% annually"
+        tech: "ElasticSearch, LangChain, Braintrust, Ragas"
         link: "https://docs.stripe.com/assistant"
-
-      - role: "Machine Learning Engineer"
-        team: "Foundation Model"
-        dates: "Apr 2024 – Oct 2024"
-        highlights:
-          - "Built the world's first foundation model for payments using RL fine-tuning with GRPO, improving card testing attack detection for large users by 38 percentage points annually"
-        tech: "PyTorch, HuggingFace, TRL, PEFT"
-        link: "https://techcrunch.com/2025/05/07/stripe-unveils-ai-foundation-model-for-payments-reveals-deeper-partnership-with-nvidia/"
 
       - role: "Machine Learning Engineer"
         team: "Fraud Discovery"
