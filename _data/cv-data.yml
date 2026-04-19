@@ -1,13 +1,24 @@
 # Structured CV Data
 
 industry:
+  - company: "Crosby"
+    location: "New York, NY"
+    logo: "/images/logos/crosby.jpeg"
+    positions:
+      - role: "Founding Applied AI Engineer"
+        team: "Engineering"
+        dates: "Jan 2026 – Present"
+        highlights:
+          - "Building MapQuest, an AI contract redlining system to accelerate (and eventually automate) negotiations between Crosby's clients and their counterparties"
+        tech: "FastMCP, Prefect, Redash, Modal, Cloudflare, LogFire, Pulumi"
+
   - company: "Stripe"
     location: "New York, NY"
     logo: "/images/logos/stripe.png"
     positions:
       - role: "Senior Machine Learning Engineer"
         team: "Merchant Intelligence"
-        dates: "Apr 2025 – Present"
+        dates: "Apr 2025 – Dec 2025"
         highlights:
           - "Built Stripe's merchant intelligence service to orchestrate a suite of web crawling AI agents at scale, reducing the rate of undetected unsupportable merchants onboarded by 34% annually"
         tech: "LangGraph, browser-use, Browserbase, Perplexity, FireCrawl"
