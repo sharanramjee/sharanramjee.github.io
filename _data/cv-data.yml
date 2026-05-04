@@ -126,6 +126,12 @@ research:
           - "Published 5 papers (3 as first author) in top IEEE journals and conferences and won $750k at the DARPA Spectrum Collaboration Challenge (SC2)"
 
 publications:
+  - title: "Ulterior Motives: Detecting Misaligned Reasoning in Continuous Thought Models"
+    venue: "ICLR LIT"
+    year: 2026
+    citation: '<strong>Sharan Ramjee</strong>. "Ulterior Motives: Detecting Misaligned Reasoning in Continuous Thought Models". International Conference on Learning Representations (ICLR) Latent & Implicit Thinking (LIT) Workshop, Apr. 2026'
+    link: "/publications/iclr2026"
+
   - title: "Ensemble Wrapper Subsampling for Deep Modulation Classification"
     venue: "IEEE TCCN"
     year: 2021
