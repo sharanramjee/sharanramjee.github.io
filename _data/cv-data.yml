@@ -5,12 +5,13 @@ industry:
     location: "New York, NY"
     logo: "/images/logos/crosby.jpeg"
     positions:
-      - role: "Founding Applied AI Engineer"
-        team: "Engineering"
+      - role: "Founding Research Engineer"
+        team: "Crosby Intelligence"
         dates: "Jan 2026 – Present"
         highlights:
-          - "Building MapQuest, an AI contract redlining system to accelerate (and eventually automate) negotiations between Crosby's clients and their counterparties"
-        tech: "FastMCP, Prefect, Redash, Modal, Cloudflare, LogFire, Pulumi"
+          - "Post-training open-source models to turn Legal AI into a more verifiable domain, paving the path for agentic contract review"
+        tech: "FastMCP, Prefect, Redash, Modal, Verl, LogFire, FSDP2"
+        link: "https://intelligence.crosby.ai/"
 
   - company: "Stripe"
     location: "New York, NY"
